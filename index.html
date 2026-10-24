@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Colombia Noticias Hoy · Carlos Anaya</title>
+<meta name="description" content="Las noticias de Colombia del día, al minuto, con Carlos Anaya de Colombia Noticias Hoy.">
+<meta name="theme-color" content="#070b16">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:title" content="Colombia Noticias Hoy · Carlos Anaya">
+<meta property="og:description" content="Las noticias de Colombia del día, al minuto.">
+<meta property="og:image" content="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Archivo+Narrow:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#070b16; --panel:#0f1626; --panel2:#151e33; --line:#1f2a44; --line2:#2c3a5c;
+  --txt:#f1f5f9; --muted:#9aa7bd; --dim:#66738c;
+  --oro:#facc15; --azul:#3b82f6; --rojo:#ef4444; --verde:#22c55e;
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--txt);font-family:'Archivo',system-ui,sans-serif;-webkit-tap-highlight-color:transparent;min-height:100vh;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:-20% -20% auto;height:70vh;z-index:-1;pointer-events:none;
+  background:radial-gradient(40% 50% at 20% 30%,rgba(250,204,21,.16),transparent 70%),radial-gradient(40% 50% at 80% 20%,rgba(59,130,246,.18),transparent 70%),radial-gradient(35% 45% at 55% 60%,rgba(239,68,68,.12),transparent 70%);
+  animation:aurora 14s ease-in-out infinite alternate}
+@keyframes aurora{to{transform:translate3d(-4%,3%,0) rotate(4deg)}}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:540px;margin:0 auto;padding:0 16px 40px}
+
+/* franja tricolor + ticker */
+.tri{height:4px;background:linear-gradient(90deg,var(--oro) 0 50%,var(--azul) 50% 75%,var(--rojo) 75%)}
+.ticker{position:sticky;top:0;z-index:5;display:flex;align-items:center;background:rgba(7,11,22,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.ticker-tag{flex:none;display:flex;align-items:center;gap:6px;background:var(--rojo);color:#fff;font:800 11px 'Archivo';letter-spacing:.1em;text-transform:uppercase;padding:9px 12px}
+.ticker-tag i{width:7px;height:7px;border-radius:50%;background:#fff;animation:late 1.2s infinite}
+@keyframes late{50%{opacity:.2}}
+.ticker-vent{flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 94%,transparent)}
+.ticker-pista{display:inline-flex;white-space:nowrap;animation:corre 60s linear infinite;padding-left:12px}
+.ticker-vent:hover .ticker-pista{animation-play-state:paused}
+.ticker-pista a{font:600 13px 'Archivo';color:#dbe3f0;padding:9px 0}
+.ticker-pista a::after{content:"◆";color:var(--oro);margin:0 16px;font-size:9px;vertical-align:2px}
+@keyframes corre{to{transform:translateX(-50%)}}
+
+/* barra superior */
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:14px 0 16px}
+.estado{display:flex;align-items:center;gap:8px;font:700 11px 'Archivo Narrow',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.punto{width:8px;height:8px;border-radius:50%;background:var(--dim);flex:none}
+.punto.vivo{background:var(--verde);animation:pulso 2s infinite}
+.punto.error{background:var(--rojo)}
+@keyframes pulso{0%{box-shadow:0 0 0 0 rgba(34,197,94,.6)}70%{box-shadow:0 0 0 8px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
+.acciones{display:flex;gap:8px}
+.btn-ic{height:40px;min-width:40px;padding:0 11px;border-radius:12px;background:var(--panel);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:8px;font:700 12px 'Archivo';transition:transform .15s,border-color .15s}
+.btn-ic:hover{border-color:var(--line2)}
+.btn-ic:active{transform:scale(.92)}
+.btn-ic svg{width:18px;height:18px;flex:none}
+.btn-ic .lbl{display:none}
+.girando svg{animation:gira 1s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+
+/* perfil */
+.perfil{position:relative;background:linear-gradient(150deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:24px;padding:20px 18px 18px;margin-bottom:22px;overflow:hidden}
+.perfil::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;background:conic-gradient(from 0deg,var(--oro),var(--azul),var(--rojo),var(--oro));opacity:.12;filter:blur(2px);animation:gira 22s linear infinite}
+.p-cab{display:flex;align-items:center;gap:14px;position:relative;z-index:1}
+.foto{position:relative;flex:none;width:88px;height:88px;border-radius:50%;padding:3px;background:conic-gradient(var(--oro),var(--azul),var(--rojo),var(--oro));animation:gira 8s linear infinite}
+.foto img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--panel2);display:block;animation:gira 8s linear infinite reverse}
+.marca{font:700 11px 'Archivo Narrow',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--oro);display:flex;align-items:center;gap:6px}
+.marca svg{width:15px;height:15px}
+h1{font-weight:900;font-style:italic;font-size:27px;letter-spacing:-.03em;line-height:1;text-transform:uppercase;margin-top:5px}
+.rol{font-size:12.5px;color:var(--muted);margin-top:5px}
+.cifras{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;position:relative;z-index:1}
+.cifra{background:rgba(7,11,22,.5);border:1px solid var(--line);border-radius:14px;padding:10px 6px;text-align:center}
+.cifra b{display:block;font:900 20px 'Archivo';letter-spacing:-.02em}
+.cifra span{font:700 9.5px 'Archivo Narrow',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.cifra.oro b{color:var(--oro)}
+.redes{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px;position:relative;z-index:1}
+.red{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:11px 4px 9px;display:flex;flex-direction:column;align-items:center;gap:5px;transition:transform .15s,border-color .15s}
+.red:hover{border-color:var(--oro)}
+.red:active{transform:scale(.94)}
+.red svg{width:21px;height:21px}
+.red span{font:700 9.5px 'Archivo Narrow',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cta{display:flex;align-items:center;justify-content:center;gap:9px;margin-top:12px;padding:13px;border-radius:14px;font:800 12.5px 'Archivo';letter-spacing:.06em;text-transform:uppercase;color:#fff;position:relative;z-index:1;overflow:hidden;
+  background:linear-gradient(100deg,#f58529,#dd2a7b 45%,#8134af 80%,#515bd4);background-size:200% 100%;animation:brillo 6s ease-in-out infinite alternate}
+.cta svg{width:18px;height:18px}
+@keyframes brillo{to{background-position:100% 0}}
+
+/* secciones */
+.grid{display:flex;flex-direction:column}
+.col{display:contents}
+.sec{margin-bottom:24px}
+#sec-hoy{order:1} #sec-fuerte{order:2} #sec-temas{order:3} #sec-noticias{order:4}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:12px}
+.sec-h h2{font:900 13px 'Archivo';letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.sec-h h2 .vivo-dot{width:8px;height:8px;border-radius:50%;background:var(--rojo);animation:late 1.2s infinite}
+.sec-h small{font-size:11.5px;color:var(--dim);text-align:right}
+
+/* hoy */
+.hoy{background:linear-gradient(160deg,rgba(250,204,21,.09),var(--panel) 50%);border:1px solid #2f3a1d;border-radius:var(--r);padding:16px}
+.hoy-cab{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.fecha-hoy{font:700 12px 'Archivo Narrow',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--oro)}
+.contador{font:800 11px 'Archivo';background:var(--oro);color:#000;padding:3px 9px;border-radius:999px}
+.vacio{font-size:13.5px;color:var(--muted);line-height:1.5;padding:4px 0 8px}
+
+/* lo más fuerte */
+.fuerte{display:block;position:relative;border-radius:var(--r);padding:18px;background:linear-gradient(135deg,#1a2342,#0f1626 70%);border:1px solid var(--line2);overflow:hidden;transition:transform .2s}
+.fuerte:active{transform:scale(.985)}
+.fuerte::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.06) 50%,transparent 70%);background-size:250% 100%;animation:barrido 4s ease-in-out infinite}
+@keyframes barrido{from{background-position:120% 0}to{background-position:-120% 0}}
+.fuerte .rank{display:inline-flex;align-items:center;gap:6px;font:800 10.5px 'Archivo';letter-spacing:.1em;text-transform:uppercase;background:var(--rojo);color:#fff;padding:4px 9px;border-radius:8px;margin-bottom:10px}
+.fuerte h3{font:900 20px/1.2 'Archivo';letter-spacing:-.01em;position:relative}
+.fuerte .meta{margin-top:10px;position:relative}
+.barra-medios{display:flex;gap:3px;margin-top:12px;position:relative}
+.barra-medios i{height:5px;flex:1;border-radius:3px;background:var(--oro);opacity:.25;animation:sube .6s ease-out both}
+.barra-medios i.on{opacity:1}
+@keyframes sube{from{transform:scaleX(0)}}
+
+/* temas */
+.temas{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tema{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 10px;text-align:left;transition:transform .15s,border-color .15s;position:relative;overflow:hidden}
+.tema:active{transform:scale(.95)}
+.tema:hover,.tema.on{border-color:var(--c,var(--oro))}
+.tema.on{background:var(--panel2)}
+.tema .em{font-size:19px;display:block}
+.tema b{display:block;font:800 12.5px 'Archivo';margin-top:6px}
+.tema small{font-size:11px;color:var(--muted)}
+.tema .n{position:absolute;right:9px;top:9px;font:900 15px 'Archivo';color:var(--c,var(--oro))}
+
+/* notas */
+.nota{padding:13px 0;border-top:1px solid var(--line);animation:entra .45s ease-out both}
+.nota:first-child{border-top:0;padding-top:4px}
+.nota:last-child{padding-bottom:2px}
+.nota>a{display:block}
+.nota h3{font-weight:700;font-size:15.5px;line-height:1.32;margin-bottom:7px}
+.nota>a:hover h3{color:var(--oro)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:11.5px;color:var(--dim)}
+.fuente{color:var(--oro);font-weight:600}
+.etq{font:700 10px 'Archivo';padding:2px 7px;border-radius:6px;background:var(--panel2);border:1px solid var(--line2);color:var(--muted)}
+.nuevo{background:var(--oro);color:#000;font:800 9px 'Archivo';letter-spacing:.08em;padding:2px 6px;border-radius:6px;text-transform:uppercase;animation:late 1.6s infinite}
+.medios{background:#1c2540;color:#93c5fd;font:700 10.5px 'Archivo';padding:2px 7px;border-radius:999px}
+details.otros{margin-top:9px}
+details.otros summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);padding:5px 10px;border:1px solid var(--line);border-radius:999px}
+details.otros summary::-webkit-details-marker{display:none}
+details.otros summary svg{width:12px;height:12px;transition:transform .2s}
+details.otros[open] summary svg{transform:rotate(180deg)}
+.otros ul{list-style:none;margin-top:8px;border-left:2px solid var(--line2);padding-left:12px}
+.otros li{padding:6px 0}
+.otros li a{font-size:13px;line-height:1.35;color:#cbd5e1}
+.otros li a:hover{color:var(--oro)}
+.otros li b{color:var(--oro);font-weight:600;font-size:11.5px;display:block;margin-bottom:2px}
+.lista{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+@keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* buscador */
+.buscar{display:flex;gap:8px;margin-bottom:12px}
+.buscar input{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:var(--txt);font:500 14px 'Archivo';outline:none}
+.buscar input:focus{border-color:var(--oro)}
+.buscar button{background:var(--oro);color:#000;border-radius:14px;padding:0 16px;font:800 12px 'Archivo';letter-spacing:.06em;text-transform:uppercase}
+.buscar button:active{transform:scale(.95)}
+.mas{display:block;width:100%;margin-top:10px;padding:12px;border-radius:14px;border:1px dashed var(--line2);font:700 12px 'Archivo';color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.mas:hover{color:var(--txt)}
+
+/* esqueleto, aviso, pie */
+.sk{height:14px;border-radius:6px;background:linear-gradient(90deg,#141c30,#1f2a44,#141c30);background-size:200% 100%;animation:sk 1.2s infinite;margin:10px 0}
+@keyframes sk{to{background-position:-200% 0}}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 20px);transform:translate(-50%,140px);background:var(--txt);color:#000;font:700 13px 'Archivo';padding:12px 18px;border-radius:14px;transition:transform .3s;z-index:9;max-width:90vw;text-align:center}
+.toast:empty{display:none}
+.toast.ver{transform:translate(-50%,0)}
+footer{text-align:center;padding-top:16px;font:700 10px 'Archivo Narrow',sans-serif;letter-spacing:.25em;color:var(--dim);text-transform:uppercase;line-height:1.8}
+footer b{display:block;color:var(--muted);font-size:12px;letter-spacing:.2em}
+footer .nota-f{font:400 11px 'Archivo';letter-spacing:0;text-transform:none;margin-top:10px;color:var(--dim)}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}}
+
+/* computador */
+@media (min-width:980px){
+  .wrap{max-width:1200px;padding:0 32px 48px}
+  .btn-ic .lbl{display:inline}
+  .perfil{display:grid;grid-template-columns:1fr 360px;gap:12px 28px;align-items:center;padding:24px 28px}
+  .perfil .redes,.perfil .cta{grid-column:2}
+  .perfil .cifras{grid-column:1;margin-top:0}
+  .p-cab{grid-row:1/3}
+  .foto{width:110px;height:110px}
+  h1{font-size:40px}
+  .cifras{margin:0}
+  .grid{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:28px;align-items:start}
+  .col{display:block}
+  .col-b{position:sticky;top:70px}
+  .nota h3{font-size:18px}
+  .fuerte h3{font-size:24px}
+  .hoy{padding:20px 22px}
+  .lista{padding:16px 22px}
+}
+</style>
+</head>
+<body>
+<div class="tri"></div>
+<div class="ticker">
+  <div class="ticker-tag"><i></i>Al minuto</div>
+  <div class="ticker-vent"><div class="ticker-pista" id="ticker"><a>Cargando titulares de Colombia…</a></div></div>
+</div>
+
+<div class="wrap">
+
+  <div class="top">
+    <div class="estado"><span id="punto" class="punto"></span><span id="estado-txt">Conectando…</span></div>
+    <div class="acciones">
+      <button class="btn-ic" id="btn-compartir" aria-label="Compartir">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12v7a2 2 0 002 2h12a2 2 0 002-2v-7M16 6l-4-4-4 4M12 2v14"/></svg><span class="lbl">Compartir</span>
+      </button>
+      <button class="btn-ic" id="btn-actualizar" aria-label="Actualizar">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h5M20 20v-5h-5M5.1 15A8 8 0 0019 17.5M18.9 9A8 8 0 005 6.5"/></svg><span class="lbl">Actualizar</span>
+      </button>
+    </div>
+  </div>
+
+  <header class="perfil">
+    <div class="p-cab">
+      <div class="foto"><img src="carlos.jpg" alt="Carlos Anaya"></div>
+      <div>
+        <p class="marca">colombianoticiashoy <svg viewBox="0 0 24 24" fill="#3b82f6"><path d="M12 1l2.6 2.2 3.4-.4.9 3.3 3 1.7-1.2 3.2 1.2 3.2-3 1.7-.9 3.3-3.4-.4L12 23l-2.6-2.2-3.4.4-.9-3.3-3-1.7L3.3 13 2.1 9.8l3-1.7.9-3.3 3.4.4z"/><path d="M8 12.2l2.6 2.6L16.2 9" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></p>
+        <h1>Carlos Anaya</h1>
+        <p class="rol">Colombia Noticias Hoy · Medio de comunicación</p>
+      </div>
+    </div>
+    <div class="cifras">
+      <div class="cifra oro"><b data-n="797" data-suf=" mil">0</b><span>Seguidores</span></div>
+      <div class="cifra"><b data-n="10.1" data-suf=" mil" data-dec="1">0</b><span>Publicaciones</span></div>
+      <div class="cifra"><b id="cifra-hoy">0</b><span>Noticias hoy</span></div>
+    </div>
+    <nav class="redes">
+      <a class="red" href="https://www.instagram.com/colombianoticiashoy/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#e1306c" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#e1306c"/></svg>
+        <span>Instagram</span>
+      </a>
+      <a class="red" href="https://www.threads.net/@colombianoticiashoy" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.7 11.1l-.4-.2c-.2-3-1.9-4.8-4.7-4.8-1.7 0-3.1.7-3.9 2l1.5 1c.6-.9 1.6-1.1 2.4-1.1 1 0 1.7.3 2.1.9.3.4.5 1 .6 1.7-.8-.1-1.7-.2-2.6-.1-2.6.2-4.3 1.7-4.2 3.8.1 1.1.6 2 1.5 2.6.8.5 1.8.8 2.8.7 1.4-.1 2.5-.6 3.2-1.6.6-.7.9-1.7 1-2.9.7.4 1.2 1 1.5 1.6.5 1.1.5 2.9-1 4.4-1.3 1.3-2.9 1.9-5.3 1.9-2.6 0-4.6-.9-5.9-2.5-1.2-1.5-1.8-3.7-1.9-6.5.1-2.8.7-5 1.9-6.5C6.4 4.3 8.4 3.5 11 3.5c2.7 0 4.7.9 6 2.5.7.8 1.2 1.8 1.5 2.9l1.8-.5c-.4-1.4-1-2.6-1.9-3.7C16.8 2.7 14.3 1.6 11 1.6c-3.2 0-5.7 1-7.4 3.1C2.1 6.6 1.3 9.2 1.3 12.4v.1c0 3.2.8 5.8 2.3 7.7 1.7 2.1 4.2 3.1 7.4 3.2 2.9 0 4.9-.8 6.6-2.4 2.2-2.2 2.1-4.9 1.4-6.6-.5-1.2-1.5-2.2-2.8-2.9zm-5 4.6c-1.1.1-2.3-.4-2.3-1.5-.1-.8.6-1.7 2.5-1.8h.6c.7 0 1.3.1 1.9.2-.2 2.7-1.5 3-2.7 3.1z"/></svg>
+        <span>Threads</span>
+      </a>
+      <a class="red" href="https://www.facebook.com/search/top?q=Colombianoticias%20Carlos%20Anaya" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#1877f2"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0024 12z"/></svg>
+        <span>Facebook</span>
+      </a>
+      <a class="red" href="https://ig.me/m/colombianoticiashoy" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="var(--oro)" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.5a8.4 8.4 0 01-9 8.4 8.6 8.6 0 01-3.8-.9L3 20l1.1-4.6A8.4 8.4 0 1121 11.5z"/></svg>
+        <span>Denuncia</span>
+      </a>
+    </nav>
+    <a class="cta" href="https://www.instagram.com/colombianoticiashoy/reels/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.1v13.8a1 1 0 001.5.9l11-6.9a1 1 0 000-1.8l-11-6.9A1 1 0 008 5.1z"/></svg>
+      Ver los reels de Carlos
+    </a>
+  </header>
+
+  <main class="grid">
+    <div class="col col-a">
+
+      <section class="sec" id="sec-hoy">
+        <div class="sec-h"><h2><span class="vivo-dot"></span>Hoy en Colombia</h2><small id="hoy-hora"></small></div>
+        <div class="hoy">
+          <div class="hoy-cab"><p class="fecha-hoy" id="fecha-hoy"></p><span class="contador" id="hoy-cuenta" hidden></span></div>
+          <div id="hoy-lista"><div class="sk"></div><div class="sk" style="width:70%"></div><div class="sk" style="width:85%"></div></div>
+        </div>
+      </section>
+
+      <section class="sec" id="sec-noticias">
+        <div class="sec-h"><h2 id="lista-titulo">Días anteriores</h2><small id="total-txt"></small></div>
+        <form class="buscar" id="form-buscar">
+          <input id="q" type="search" placeholder="Buscar: Petro, Barrancabermeja, Ejército…" autocomplete="off" enterkeyhint="search">
+          <button type="submit">Buscar</button>
+        </form>
+        <div class="lista" id="lista"><div class="sk"></div><div class="sk" style="width:60%"></div></div>
+        <button class="mas" id="btn-mas" hidden>Ver más</button>
+      </section>
+
+    </div>
+    <aside class="col col-b">
+
+      <section class="sec" id="sec-fuerte" hidden>
+        <div class="sec-h"><h2>Lo más fuerte</h2><small id="fuerte-txt"></small></div>
+        <a class="fuerte" id="fuerte" target="_blank" rel="noopener"></a>
+      </section>
+
+      <section class="sec" id="sec-temas">
+        <div class="sec-h"><h2>Temas</h2><small>Toca para filtrar</small></div>
+        <div class="temas" id="temas"></div>
+      </section>
+
+    </aside>
+  </main>
+
+  <footer>
+    Software por
+    <b>Vibras Positivas HM</b>
+    <p class="nota-f">Titulares de medios de comunicación vía Google Noticias. Se revisan cada 30 minutos y al abrir la app.</p>
+  </footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const TZ = 'America/Bogota';
+const $ = s => document.querySelector(s);
+
+// Temas: palabras con las que se reconoce cada noticia y la búsqueda en vivo de cada uno.
+const TEMAS = [
+  { t:'Todas', em:'🇨🇴', c:'#facc15' },
+  { t:'Gobierno', em:'🏛️', c:'#facc15', p:['espriella','gobierno','presidente','ministr','casa de narino'], q:'"Abelardo de la Espriella" OR "Casa de Nariño"' },
+  { t:'Petro', em:'🔴', c:'#ef4444', p:['petro','pacto historico','izquierda'], q:'Petro OR "Pacto Histórico"' },
+  { t:'Congreso', em:'🗳️', c:'#3b82f6', p:['senado','senador','camara','congres','representante'], q:'Senado OR "Cámara de Representantes" Colombia' },
+  { t:'Fuerza Pública', em:'🎖️', c:'#22c55e', p:['policia','ejercito','militar','fuerza publica','armada','soldado','patrullero','general'], q:'"Policía Nacional" OR "Fuerzas Militares" Colombia' },
+  { t:'Justicia', em:'⚖️', c:'#a78bfa', p:['fiscal','corte','procurad','juez','captur','extradi','condena'], q:'Fiscalía OR "Corte Suprema" Colombia' },
+];
+const VIVO_GENERAL = ['Colombia política', 'Colombia "última hora"'];
+
+let noticias = [];
+let tema = 'Todas';
+let filtroTexto = '';
+let mostrar = 8;
+let ultimaVisita = Number(leer('cnh-ultima') || 0);
+
+/* ---------- utilidades ---------- */
+function leer(k){ try{ return localStorage.getItem(k) }catch(e){ return null } }
+function guardar(k,v){ try{ localStorage.setItem(k,v) }catch(e){} }
+const diaBogota = d => new Intl.DateTimeFormat('en-CA',{timeZone:TZ}).format(d);
+const horaBogota = d => new Intl.DateTimeFormat('es-CO',{timeZone:TZ,hour:'numeric',minute:'2-digit'}).format(d);
+const fechaLarga = d => new Intl.DateTimeFormat('es-CO',{timeZone:TZ,weekday:'long',day:'numeric',month:'long'}).format(d);
+function hace(fecha){
+  const s = (Date.now() - fecha) / 1000;
+  if (s < 60) return 'hace un momento';
+  if (s < 3600) return `hace ${Math.round(s/60)} min`;
+  if (s < 86400) return `hace ${Math.round(s/3600)} h`;
+  if (diaBogota(new Date(Date.now() - 86400000)) === diaBogota(new Date(fecha))) return 'ayer';
+  return new Intl.DateTimeFormat('es-CO',{timeZone:TZ,day:'numeric',month:'short'}).format(fecha);
+}
+function esc(t=''){ return String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])) }
+function sinTildes(t=''){ return t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase() }
+function clave(t){ return sinTildes(t).replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim().slice(0,70) }
+function plural(n, s, p){ return `${n} ${n===1?s:(p||s+'s')}` }
+function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('ver'); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('ver'),2600) }
+function estado(txt, tipo){ $('#estado-txt').textContent = txt; $('#punto').className = 'punto ' + (tipo||'') }
+function temaDe(n){
+  const t = sinTildes(n.titulo);
+  // Orden de prioridad: lo más específico primero ("expresidentes" no debe caer en Gobierno si habla de Petro)
+  const hit = ['Petro','Fuerza Pública','Justicia','Congreso','Gobierno'].map(n => TEMAS.find(x => x.t === n)).find(x => x.p.some(w => t.includes(w)));
+  return hit ? hit.t : (n.tema && TEMAS.some(x => x.t === n.tema) ? n.tema : null);
+}
+
+/* contador animado */
+function contar(el, hasta, dec=0, suf=''){
+  const ini = performance.now(), dur = 1200, desde = Number(el.dataset.v || 0);
+  el.dataset.v = hasta;
+  const paso = t => {
+    const k = Math.min(1, (t - ini) / dur), e = 1 - Math.pow(1 - k, 3);
+    el.textContent = (desde + (hasta - desde) * e).toLocaleString('es-CO',{minimumFractionDigits:dec,maximumFractionDigits:dec}) + suf;
+    if (k < 1) requestAnimationFrame(paso);
+  };
+  requestAnimationFrame(paso);
+}
+
+/* ---------- fuentes ---------- */
+async function cargarRobot(){
+  try{
+    const r = await fetch('noticias.json?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) throw 0;
+    return await r.json();
+  }catch(e){ return null }
+}
+function parsearRSS(xml, temaRss=''){
+  const doc = new DOMParser().parseFromString(xml, 'text/xml');
+  return [...doc.querySelectorAll('item')].map(it => {
+    const fuente = it.querySelector('source')?.textContent?.trim() || '';
+    let titulo = it.querySelector('title')?.textContent?.trim() || '';
+    if (fuente && titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
+    const f = new Date(it.querySelector('pubDate')?.textContent || 0);
+    return { titulo, enlace: it.querySelector('link')?.textContent?.trim(), fuente, fecha: isNaN(f) ? null : f.toISOString(), tema: temaRss };
+  }).filter(n => n.titulo && n.enlace && n.fecha);
+}
+const PROXIES = [
+  u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+  u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
+];
+async function rssEnVivo(consulta, temaRss=''){
+  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(consulta)}&hl=es-419&gl=CO&ceid=CO:es-419`;
+  for (const p of PROXIES){
+    try{
+      const ctl = new AbortController(); const to = setTimeout(()=>ctl.abort(), 9000);
+      const r = await fetch(p(url), {cache:'no-store', signal:ctl.signal});
+      clearTimeout(to);
+      if (!r.ok) continue;
+      const items = parsearRSS(await r.text(), temaRss);
+      if (items.length) return items;
+    }catch(e){}
+  }
+  return [];
+}
+async function buscarEnVivo(extra=''){
+  if (extra) return rssEnVivo(`${extra} Colombia when:7d`);
+  const cons = [...VIVO_GENERAL.map(q => [q,'']), ...TEMAS.filter(t => t.q).map(t => [t.q, t.t])];
+  const res = await Promise.all(cons.map(([q,t]) => rssEnVivo(`${q} when:1d`, t)));
+  return res.flat();
+}
+function fusionar(...listas){
+  const vistos = new Map();
+  for (const n of listas.flat()){
+    if (!n?.titulo) continue;
+    const k = clave(n.titulo);
+    if (!vistos.has(k)) vistos.set(k, n);
+  }
+  return [...vistos.values()].sort((a,b) => new Date(b.fecha) - new Date(a.fecha));
+}
+
+/* ---------- agrupar la misma historia contada por varios medios ---------- */
+const VACIAS = new Set(('colombia colombiano colombiana para como sobre tras entre contra desde hasta pero porque cuando donde este esta estos estas ese esa esos esas '+
+  'tiene tienen dijo dice asegura afirma segun sera fueron habia hace hizo muy mas menos todo toda todos otro otra otros otras nuevo nueva ante bajo cual '+
+  'quien quienes que ellos ella ellas asi solo tambien aunque luego despues antes ahora hoy ayer video noticia noticias ultima ultimas octubre').split(' '));
+function palabras(t){ return new Set(sinTildes(t).split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !VACIAS.has(w)).map(w => w.length > 6 ? w.slice(0,6) : w)) }
+function agrupar(lista){
+  const grupos = [];
+  for (const n of lista){
+    const p = palabras(n.titulo), f = new Date(n.fecha).getTime();
+    let mejor = null, mejorIdx = 0;
+    for (const g of grupos){
+      if (Math.abs(g.inicio - f) > 2 * 86400000) continue;
+      for (const m of g.miembros){
+        let comun = 0; for (const w of p) if (m.p.has(w)) comun++;
+        const idx = comun / Math.max(1, Math.min(p.size, m.p.size));
+        if (comun >= 3 && idx >= 0.4 && idx > mejorIdx){ mejor = g; mejorIdx = idx }
+      }
+    }
+    if (mejor){ mejor.miembros.push({ n, p }); mejor.inicio = Math.min(mejor.inicio, f) }
+    else grupos.push({ miembros: [{ n, p }], fecha: f, inicio: f });
+  }
+  return grupos.map(g => {
+    const notas = g.miembros.map(m => m.n);
+    const medios = [...new Map(notas.map(n => [sinTildes(n.fuente||'medio'), n.fuente||'Medio'])).values()];
+    return { notas, medios, fecha: g.fecha, tema: notas.map(temaDe).find(Boolean) || null };
+  });
+}
+
+/* ---------- pintar ---------- */
+const flecha = '<svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>';
+function tarjeta(g, i=0){
+  const [p, ...resto] = g.notas;
+  const nueva = ultimaVisita && g.fecha > ultimaVisita;
+  const otros = g.medios.slice(1);
+  const resumen = otros.length ? `También: ${otros.slice(0,3).join(', ')}${otros.length>3?` y ${otros.length-3} más`:''}` : `${plural(resto.length,'nota más','notas más')} del mismo medio`;
+  const tm = TEMAS.find(x => x.t === g.tema);
+  return `<article class="nota" style="animation-delay:${Math.min(i,8)*55}ms">
+    <a href="${esc(p.enlace)}" target="_blank" rel="noopener"><h3>${esc(p.titulo)}</h3></a>
+    <div class="meta">${nueva?'<span class="nuevo">Nuevo</span>':''}<span class="fuente">${esc(p.fuente||'Medio')}</span><span>${hace(new Date(p.fecha))}</span>${tm?`<span class="etq">${tm.em} ${esc(tm.t)}</span>`:''}${g.medios.length>1?`<span class="medios">${g.medios.length} medios</span>`:''}</div>
+    ${resto.length ? `<details class="otros"><summary>${esc(resumen)} ${flecha}</summary>
+      <ul>${resto.map(n => `<li><a href="${esc(n.enlace)}" target="_blank" rel="noopener"><b>${esc(n.fuente||'Medio')} · ${hace(new Date(n.fecha))}</b>${esc(n.titulo)}</a></li>`).join('')}</ul>
+    </details>` : ''}
+  </article>`;
+}
+const esDeHoy = g => diaBogota(new Date(g.fecha)) === diaBogota(new Date());
+function coincide(g){
+  return (tema === 'Todas' || g.tema === tema || g.notas.some(n => temaDe(n) === tema)) &&
+    (!filtroTexto || g.notas.some(n => sinTildes(n.titulo + ' ' + (n.fuente||'')).includes(sinTildes(filtroTexto))));
+}
+
+function pintarTicker(grupos){
+  const top = grupos.slice(0, 12);
+  if (!top.length) return;
+  const html = top.map(g => `<a href="${esc(g.notas[0].enlace)}" target="_blank" rel="noopener">${esc(g.notas[0].titulo)}</a>`).join('');
+  $('#ticker').innerHTML = html + html; // dos veces para que el carrusel sea continuo
+}
+
+function pintarHoy(grupos){
+  const ahora = new Date(), f = fechaLarga(ahora);
+  $('#fecha-hoy').textContent = f.charAt(0).toUpperCase() + f.slice(1);
+  $('#hoy-hora').textContent = 'Hora Colombia ' + horaBogota(ahora);
+  const deHoy = grupos.filter(esDeHoy);
+  $('#hoy-cuenta').hidden = !deHoy.length;
+  $('#hoy-cuenta').textContent = plural(deHoy.length, 'historia');
+  const el = $('#cifra-hoy'); if (Number(el.dataset.v||-1) !== deHoy.length) contar(el, deHoy.length);
+  if (deHoy.length){
+    $('#hoy-lista').innerHTML = deHoy.slice(0,7).map(tarjeta).join('') +
+      (deHoy.length > 7 ? `<p class="vacio" style="padding-top:10px">y ${plural(deHoy.length-7,'historia')} más de hoy abajo y en Temas.</p>` : '');
+  } else if (grupos.length){
+    $('#hoy-lista').innerHTML = `<p class="vacio">Todavía no hay titulares de hoy. Lo último que salió:</p>` + grupos.slice(0,2).map(tarjeta).join('');
+  } else {
+    $('#hoy-lista').innerHTML = `<p class="vacio">No se pudieron cargar noticias. Revisa tu conexión y toca actualizar.</p>`;
+  }
+}
+
+function pintarFuerte(grupos){
+  const recientes = grupos.filter(g => Date.now() - g.fecha < 36 * 3600000);
+  const g = [...(recientes.length ? recientes : grupos)].sort((a,b) => b.medios.length - a.medios.length || b.fecha - a.fecha)[0];
+  if (!g){ $('#sec-fuerte').hidden = true; return }
+  const p = g.notas[0], n = g.medios.length;
+  $('#fuerte').href = p.enlace;
+  $('#fuerte').innerHTML = `<span class="rank">🔥 ${n>1?`La cubren ${n} medios`:'Lo último'}</span>
+    <h3>${esc(p.titulo)}</h3>
+    <div class="meta"><span class="fuente">${esc(p.fuente||'Medio')}</span><span>${hace(new Date(p.fecha))}</span></div>
+    <div class="barra-medios">${Array.from({length:8},(_,i)=>`<i class="${i<n?'on':''}" style="animation-delay:${i*70}ms"></i>`).join('')}</div>`;
+  $('#fuerte-txt').textContent = 'Últimas 36 horas';
+  $('#sec-fuerte').hidden = false;
+}
+
+function pintarTemas(grupos){
+  const hoy = grupos.filter(esDeHoy);
+  $('#temas').innerHTML = TEMAS.map(x => {
+    const n = x.t === 'Todas' ? grupos.length : grupos.filter(g => g.tema === x.t).length;
+    const nh = x.t === 'Todas' ? hoy.length : hoy.filter(g => g.tema === x.t).length;
+    return `<button class="tema ${x.t===tema?'on':''}" style="--c:${x.c}" data-t="${x.t}"><span class="em">${x.em}</span><b>${x.t}</b><small>${nh ? plural(nh,'hoy','hoy') : 'sin novedad hoy'}</small><span class="n">${n}</span></button>`;
+  }).join('');
+}
+
+function pintarLista(grupos){
+  const buscando = tema !== 'Todas' || filtroTexto;
+  const hayHoy = grupos.some(esDeHoy);
+  const l = buscando ? grupos.filter(coincide) : (hayHoy ? grupos.filter(g => !esDeHoy(g)) : grupos.slice(2));
+  $('#lista-titulo').textContent = buscando ? (tema !== 'Todas' ? tema : 'Resultados') : 'Días anteriores';
+  $('#total-txt').textContent = l.length ? `${plural(l.length,'historia')}` : '';
+  $('#lista').innerHTML = l.length ? l.slice(0, mostrar).map(tarjeta).join('') : `<p class="vacio">${buscando ? 'Sin resultados con ese filtro. Toca "Buscar" para buscar en toda la web.' : 'Aún no hay noticias de días anteriores.'}</p>`;
+  $('#btn-mas').hidden = l.length <= mostrar;
+  $('#btn-mas').textContent = `Ver más (${l.length - mostrar})`;
+}
+
+function pintarTodo(){
+  const grupos = agrupar(noticias);
+  pintarTicker(grupos); pintarHoy(grupos); pintarFuerte(grupos); pintarTemas(grupos); pintarLista(grupos);
+}
+
+/* ---------- ciclo de actualización ---------- */
+let actualizando = false;
+async function actualizar(manual=false){
+  if (actualizando) return;
+  actualizando = true;
+  $('#btn-actualizar').classList.add('girando');
+  estado('Buscando noticias…');
+  const antes = noticias.length;
+
+  const robot = await cargarRobot();
+  if (robot){ noticias = fusionar(noticias, robot.noticias || []); pintarTodo() }
+
+  const vivo = await buscarEnVivo();
+  noticias = fusionar(noticias, vivo);
+  pintarTodo();
+
+  if (vivo.length) estado('En vivo · ' + horaBogota(new Date()), 'vivo');
+  else if (robot) estado('Robot · ' + (robot.actualizado ? hace(new Date(robot.actualizado)) : 'sin fecha'), 'vivo');
+  else estado('Sin conexión', 'error');
+
+  if (manual){
+    const nuevas = noticias.length - antes;
+    toast(antes && nuevas > 0 ? plural(nuevas, 'noticia nueva', 'noticias nuevas') : 'Ya estás al día');
+  }
+  $('#btn-actualizar').classList.remove('girando');
+  actualizando = false;
+}
+
+/* ---------- eventos ---------- */
+$('#btn-actualizar').onclick = () => actualizar(true);
+$('#btn-compartir').onclick = async () => {
+  const datos = { title:'Colombia Noticias Hoy', text:'Las noticias de Colombia al minuto con Carlos Anaya', url:location.href };
+  try{ if (navigator.share) await navigator.share(datos); else { await navigator.clipboard.writeText(location.href); toast('Enlace copiado') } }catch(e){}
+};
+$('#temas').onclick = e => {
+  const b = e.target.closest('.tema'); if (!b) return;
+  tema = (b.dataset.t === tema) ? 'Todas' : b.dataset.t; mostrar = 8; pintarTodo();
+  if (innerWidth < 980) $('#sec-noticias').scrollIntoView({behavior:'smooth', block:'start'});
+};
+$('#q').oninput = e => { filtroTexto = e.target.value.trim(); mostrar = 8; pintarLista(agrupar(noticias)) };
+$('#form-buscar').onsubmit = async e => {
+  e.preventDefault();
+  const q = $('#q').value.trim();
+  if (!q) return actualizar(true);
+  $('#q').blur();
+  estado('Buscando "' + q + '"…');
+  const antes = noticias.length;
+  const res = await buscarEnVivo(q);
+  noticias = fusionar(noticias, res);
+  pintarTodo();
+  const nuevas = noticias.length - antes;
+  estado(res.length ? 'En vivo · ' + horaBogota(new Date()) : 'Sin resultados nuevos', res.length ? 'vivo' : '');
+  toast(nuevas > 0 ? `${plural(nuevas,'noticia nueva','noticias nuevas')} encontradas` : 'No hubo noticias nuevas en la web');
+};
+$('#btn-mas').onclick = () => { mostrar += 8; pintarLista(agrupar(noticias)) };
+
+let ultimaCarga = Date.now();
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible'){
+    pintarTodo();
+    if (Date.now() - ultimaCarga > 5*60*1000){ ultimaCarga = Date.now(); actualizar() }
+  } else guardar('cnh-ultima', String(Date.now()));
+});
+window.addEventListener('pagehide', () => guardar('cnh-ultima', String(Date.now())));
+setInterval(() => pintarHoy(agrupar(noticias)), 60*1000);
+
+/* ---------- arranque ---------- */
+document.querySelectorAll('.cifra b[data-n]').forEach(b => contar(b, Number(b.dataset.n), Number(b.dataset.dec||0), b.dataset.suf||''));
+pintarTodo();
+actualizar();
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(()=>{}));
+</script>
+</body>
+</html>
