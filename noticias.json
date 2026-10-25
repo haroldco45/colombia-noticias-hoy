@@ -1,12 +1,75 @@
 {
-  "actualizado": "2026-10-24T22:16:29.406Z",
+  "actualizado": "2026-10-25T00:27:29.354Z",
   "noticias": [
+    {
+      "titulo": "MinJusticia desmiente acusaciones contra el presidente Abelardo De La Espriella por captura de Nassim Orfale Vásquez",
+      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdWdmaXlvSXpVRXdaaEswQzZaamM3a0M5aGpyWE8xVUVJc3VOTmMyckVoS3RtVDdLdmVhQkhLVllIYjFyQzVXZWtQMHgyMG5HdnlVelJZTk1IWlBVSkZXZ3V1QUJNaEcxSGRhY0lEb0VYcHo5cmFOTG9oaEFFc0tGeGVBSW1CajJ0MHFueTZXbHJ2NmFfSC0xdUtZOXB1ckNKT1dsenhZSWRHYzBWNEVJeFM5MHVKREo0QlFHcVd5WlNyb1lGRzFTc2lFTDI2cGYyaHJjMTNZVG54MDlVZVpLNEJSd0ZqTEN2bjdCSEh3b3AxUk9hR1E?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T23:37:16.000Z",
+      "tema": "Última hora"
+    },
+    {
+      "titulo": "Lula da Silva y Flávio Bolsonaro se atacan en su último debate por economía, seguridad y corrupción",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaHNCd0xPdEpxUzNXWTBLcFFSNElGTHY4eGFKSkpSTE1KRDRQc3diSXR5S3FPTnBnbGtWX2szbE1YWnZWdEQ3emJfMFBCWUJkWTBfVi1hay0za1BtbmJQMFE4c183WW9OcVljV3haSkl3bTNwNFpDNHRnd0RaaF9kQU9sekRVaHBYTEcxQnV2U1hkdWpkRlRuUllBeV9McXgwdGhJTnV4dk95YVk?oc=5",
+      "fuente": "CNN en Español",
+      "fecha": "2026-10-24T23:11:00.000Z",
+      "tema": "Última hora"
+    },
+    {
+      "titulo": "Gobierno de Abelardo de la Espriella designa a Ricardo Arias Macías como nuevo consejero presidencial de derechos humanos",
+      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTTBnWW1RMVRYeC16NXFFWW9QQjNVMUNSUElXRnNYdjI1MndfM2JmRFpSNEJFTnhJVEpWVzJqWmR2Q3NJT1hCRWpPNUFWVU00RUlmeFAyUUxjVnNlQTVvOEd1bUNhemplclFNNEk0eUFFU2xmazdDZEl0UU9WTTg5WjlUaWJSVkJsLVMzSnZMLW1HVWFiQ1NraUtXVy04NC1OdTJrWlBnQXBWWmVQNFFqS1FPeWdzTG5fd2prOVhad2lxZ0JkNHZQLTJn0gHPAUFVX3lxTFBrWEM5RE83MVRST1dPUTBCQzlfZkswVjFjV0w4c2diQ3lhY2JMWU9nWmc5eG5LWVE0cGhQeUU3akpla1JwX3dldWdnWjV2bXYtUENBUkJSa05vRUZQRzhuWDFsR21XLTd0RXhOSmNkdnBtS2o5aEZYbVJ3dWpreHE4MTRoWkRCM0FvVjM3aEtuTVE5eTYxUktMZ2xsa1JLSmdzdkNMR3ozOEtHODg0NUp0ZXV3OHFsTDdVaFotQ2RLcFEyRXVaMHJ3QVk3Vy1zcw?oc=5",
+      "fuente": "Pulzo",
+      "fecha": "2026-10-24T23:06:01.000Z",
+      "tema": "Gobierno"
+    },
+    {
+      "titulo": "Primera dama Ana Lucía Pineda denunció a Levy Rincón ante la Fiscalía por hostigamiento agravado",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNEhFTkdUSElxSnJnaGZaRGgwZTg0NGw3M2R5RVBWTmo3TlpNa0RxbGM2TkxCYTJEZ05TWXpBV2V3WmtrUGZWSnRXdTIxSlBQQ3hSTWh2TEFlRGR3dTV6M3k5SmQwbUhlX21kRzF4eW1KTWhhenpIdFZBNHZLa1BrYjhIUDd1UjRvaTVlaWhaeTJnR25xUG0wdDA3eFRzbTh1c2t2SWp3THMtUlJ2SjV3aVRJSmVMSE0?oc=5",
+      "fuente": "LA RAZÓN.CO",
+      "fecha": "2026-10-24T22:46:16.000Z",
+      "tema": "Justicia"
+    },
+    {
+      "titulo": "Ejército encontró soldado desaparecido tras ataque con drones en Antioquia",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYmU2SE9IX211YmRyT1p1QV9jdnFaR3FYSWJiYmNsaWZwM1I5LXFRcEtOUDEyYlk3a1lCTkdvdjYtemQwaU1lSXpVN3dTNEVUYkhZcUZpWkdVTW9ncGJMOGp3SGxUUXNPaHh6d2VUUFlIc1FjUWdzRXo5VWthSlVJblJJTkd3bkNRSTgyN00tTGI2WE0yUFdrbm5BdVJzeGljaUtSTkZpQQ?oc=5",
+      "fuente": "laopinion.co",
+      "fecha": "2026-10-24T22:42:27.000Z",
+      "tema": "Fuerza Pública"
+    },
+    {
+      "titulo": "Ejército reporta hallazgo de 35 granadas artesanales en El Peñol",
+      "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lHZDNwSUp0cnhidzktRHNCdDFBZmVsUjg1YmlEMF9LcHRxTGxlTEstMTVtTjhvMVRQLVp5N1lhc2lGVl96ZU9DSFZwTWdicjVzazFKb2RvZXdaeGpPdEZTcG12TGo2alBqYjNaVjVrTnp0cl9naXl3aVEwaFItOWdDVko2c0N0bkh6S2VwWFY2UkJOVERJODBSSU5RQQ?oc=5",
+      "fuente": "HSB Noticias",
+      "fecha": "2026-10-24T22:31:34.000Z",
+      "tema": "Fuerza Pública"
+    },
+    {
+      "titulo": "Desempolvan romántico video de De la Espriella y Ana Lucía Pineda en San Andrés y se desata una ola de críticas: “La gente sigue durmiendo en carpas”",
+      "enlace": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPdE52Q3JOODBqRmVxWF9hMXQwQ3ZFNXJoV1lyM1lObkdsTmRwZnl5MTNBVGcxM0liZHk3aHVmQXN1UjJEbEM1QXFXZUxkczZGREUyWnFZQjRTalNfWkQ1N0NGeWY5X3Z6SG9sV3V2b3hqdDRZMHFodlYwckFNeHBtVVdRcGNNUU10ZTVsYUlSVWIxSlAzM09CZnRZYk8ybzdCbkEzNlE2N21iUGc0VWpVRU1tMGxVdzZiUEJVNlIwMEtYeHl5bkQ2SUlhalU5SFBTbUNzb3JMYXpaSjhnbDhONjJHTXhoVV96SmJzZzRtcjBJbGw4b2ZrWG9KVkxlV1BJVnVPZDZ6Z1Nvc3I0ekdRbnFtSzZmN3JtUXM3bXNEQ1ZjTXhkZmRSQzFuVW9icDlHbE1tSlR30gG2AkFVX3lxTE90TnZDck44MGpGZXFYX2ExdDBDdkU1cmhXWXIzWU5uR2xOZHBmeXkxM0FUZzEzSWJkeTdodWZBc3VSMkRsQzVBcVdlTGRzNkZERTJacVlCNFNqU19aRDU3Q0Z5ZjlfdnpIb2xXdXZveGp0NFkwcWh2VjByQU14cG1VV1FwY01RTXRlNWxhSVJVYjFKUDMzT0JmdFliTzJvN0JuQTM2UTY3bWJQZzRValVFTW0wbFV3NmJQQlU2UjAwS1h4eXluRDZJSWFqVTlIUFNtQ3NvckxhelpKOGdsOE42MkdNeGhVX3pKYnNnNG1yMElsbDhvZmtYb0pWTGVXUElWdU9kNnpnU29zcjR6R1FucW1LNmY3cm1Rczdtc0RDVmNNeGRmZFJDMW5Vb2JwOUdsTW1KVHc?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T22:24:07.000Z",
+      "tema": "Gobierno"
+    },
     {
       "titulo": "Fiscalía investiga a Matador por publicaciones contra la primera dama Ana Lucía Pineda",
       "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcW5NZTZLY1ZyVmlXVFlDRmF2bUFqRWVGRGZ0MTdHdVdCY2J3YXpGUm15MzhZbW5SNC12YmdSTWhOblY2OXNuajVLZFhySVVDMk14WkUxRmZlV29qakpyb0p2QTVBZFRVUF9qTHpQcllpd1kwWEpuaFVkUmZMaGM5d3J3SUhtNXZTd2JDUk9Ld2k3UHRPWmYxV2VHejBwQTNzWFJJU1NsNVFvTGo1WEdzV2V3NXZlWURBRWdyVkNWSGtKdFM4VnRTY0c3NjNDemM?oc=5",
       "fuente": "Vanguardia",
-      "fecha": "2026-10-24T21:54:00.000Z",
+      "fecha": "2026-10-24T22:24:00.000Z",
       "tema": "Justicia"
+    },
+    {
+      "titulo": "Coroneles reincorporados al Ejército por orden de Abelardo de la Espriella: estos son los cargos que ocuparán",
+      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRUtUaEhIbnJSaUNPbjFhMTlYTUVvZnhGaExSNjNLNWM2U0JqaTdfVmIxZFhON24tS3gya09CQUViUDdxeThXQWx4WHk1OW9kOUowT0szYTJacnc0NTNYdDlDeUotMFR1UjdhTTNFaWwwTV9UQW5ETHNpLW02VG1ORXppUXlWVVpmdl9NUnViT0hyald6RWUyWEh2QlZ0dGZsczlTV2FTVkZSVjJGSDlkeHFjTUNkR05QMTBDazFmTlJQNE5QcmRLM0JaVncyX01LNmN4VkZMNVBOWlBDeDMyRFRya3E?oc=5",
+      "fuente": "CAMBIO Colombia",
+      "fecha": "2026-10-24T22:20:26.000Z",
+      "tema": "Gobierno"
+    },
+    {
+      "titulo": "Minagricultura deroga las llamadas Appa de Petro en el Suroeste antioqueño",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRXhPZk4xWGFtbzRqVExKQmRPM1o2Y21kRVpFM3JDc2hLTGNXTzZtVVF2T2dEYmpMSVNicHZOOWljRnh6VUdaYzBkS19BN2tBT0pWamVzTHh2VXNxVWtkV2lEUl9hUzVGV3RuUEJmMkRjTnI1c3VBdlF6Ri0tZzEzRHVCTXRkck1WcnVNSnBacmtvQzZHdGRnNXZISUE2aXRQdDU5WDZDRXdwWXB0czNhQ0dBeTFCaHhOZlHSAboBQVVfeXFMTlVhNm5WVWZhTVNLTmphWUhCcnpWNUw0RzRyOHVVd1lYcncyenJJODFJZlRJTnczNnZMNHhwSzBULW1xa3U2bklub1BkNEtqOVdZQ191SGx5Vl94TzdudXZwejFUWkVVak52LWJXcldiWGV6LVdxZ2xHNURGb3pXM0o4WXZUYkN3blR5QjZ2a1Q3TW5NcXhTY2M3NnZZVnQxcWphQ1RXT0FWNTlTR2txaXZHNVdlZ09rZThn?oc=5",
+      "fuente": "LaRepublica.co",
+      "fecha": "2026-10-24T22:17:33.000Z",
+      "tema": "Petro"
     },
     {
       "titulo": "Corte Suprema de Justicia lo hace oficial: se aprueba el despido del trabajador enfermo en esta situación por ley laboral",
@@ -23,11 +86,25 @@
       "tema": "Petro"
     },
     {
+      "titulo": "Defensa de Diana Ospina pidió a la Fiscalía continuar la investigación tras condena de sus secuestradores: “Estamos seguros de que hay más responsables”",
+      "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTEZFbTFlWV8zcHpkRTJydGRHYkFydlJyNlpQY2QtYlVPbUxfVDh2YndKRFd4XzRISDVNaGxUZEtuMEowNFc5eUFReThNQ2pRbGRTZXdSaGtrRURocHZWT2docTI0MWtFZ29tejNmSVJhamR2ZDZRY1N5cElaOGo4ME9ZYzRhU0l2c3JUX2ZyRjV3NnpQeFJtTHE3YWNPdXF0YThKbnJ5dW0xZ0QxMEpPSjloem1wWlJoSEVJbWFaS2wwOXExcUlzbFRTdFN6Q1BuNUNZamxvMGhOSVhIamdzMUU1NE1TNFVST2ZHVmR4OFVJZGJmSm1SaWlNZ0toSmZGT3pKNUxKQXFxSE5tTEVVOFpRbVNDa1lka2pJTGxmTdIBugJBVV95cUxQblRDeWF6WmdSVE10ZkUzd29lcTJYOUJDZE4yaFloZWtZdUNiQjdGU0JvWGNXWEUxRUxicXR5VGYyeEhDSG13LU5iMVVnRENVenIxWVRnam42a2dvaDBQZld2cHpWdGIwdFpxaWNVZENTZHBWOVJoTjRnUDcwMmc0eWFCSGFZVm1oRW85dHBRN25IWFMzVWNYMWpORzZfdTJTZ0RLUDRWd0NjY3I5NVhRT29mY3ZyMnNVYnRjdGVCMy1rM3F6YnMySGpNT2dDQl9tTkVUYXlsN0JCMlRLS0VvTUpXM0g4MEhhYy1aOU8xNXZoLUVfNjFQSXB3QjhpbVp0d2IzZEIzaEJudHJNVzJPLTg0RzFRX3JQam96X0FVeXRCcHMxS3lZRHhYMnJiNUhGb3VnN3BNVVRlQQ?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T21:24:00.000Z",
+      "tema": "Justicia"
+    },
+    {
       "titulo": "'Matador' no lo veía venir: Fiscalía anuncia decisión contra el caricaturista por mensajes ofensivos para Ana Lucía Pineda",
       "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUkhVMDZzMkpwd09jY2ZNRUJtSWNsckRpSmhZY1JGOGJ6RUJaa09HdmpvbksxTXgwZHhaQWNGVy1UTUZWNDcwTC16cmJwbDdIakdBX0syVXJWRm1Ld2x1UmF6dGZ1a1dCRTJ4ajJYcmdXQzZSSjlLdmtjNHNCTTQtMTd0OFFHbUlIMGh1ZzNkY1N0YWJBTUM2NEN2bERvb09Cc1FJaGpfS1N1THhSQVlpTjFnSzBuSFgxRnhDVlNCUXpBcndKUUpyNjdkeGxnemxKelBIeHBwZmNPZjR1NTNSWlRuSFNTVXlEUi02RFBobUNnQm83eUFBRHFkTWVMdw?oc=5",
       "fuente": "RED+ Noticias",
       "fecha": "2026-10-24T21:18:56.000Z",
       "tema": "Justicia"
+    },
+    {
+      "titulo": "Derogan los Distritos Mineros Especiales creados en el gobierno de Petro",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWnJVaVhOMFpFRFA2TGFsTnF1UnlDRi13Z2VLaTdBVHluZi1qRjZWc3FwLVRRUE81QW9TNVd6cENUdDN1TDVlc0FaLVVXSDJrcVQ1aDZoTnV0Qlg0Vy11Ym4xd2dRVldmaXEtaHhDVE5qbkplS0dsLW9IelNwN1AydlNKTy14enYzMFIteVVBdkQ3NHpMcl9zYXBkSWc5TnRjUzdjTm55VUVjNFBLbHV2OUFIVHVDbVXSAbcBQVVfeXFMT1pyVWlYTjBaRURQNkxhbE5xdVJ5Q0Ytd2dlS2k3QVR5bmYtakY2VnNxcC1UUVBPNUFvUzVXenBDVHQzdUw1ZXNBWi1VV0gya3FUNWg2aE51dEJYNFctdWJuMXdnUVZXZmlxLWh4Q1ROam5KZUtHbC1vSHpTcDdQMnZTSk8teHp2MzBSLXlVQXZENzR6THJfc2FwZElnOU50Y1M3Y05ueVVFYzRQS2x1djlBSFR1Q21V?oc=5",
+      "fuente": "LaRepublica.co",
+      "fecha": "2026-10-24T21:18:47.000Z",
+      "tema": "Petro"
     },
     {
       "titulo": "Hija de Gustavo Petro reveló que abortó hace dos años y contó la situación que atravesaba: “El papá no iba a...”",
@@ -44,6 +121,20 @@
       "tema": "Última hora"
     },
     {
+      "titulo": "José Manuel Restrepo recordó el discurso de Abelardo De La Espriella ante la ONU: este fue el motivo",
+      "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHRIYkxtUVBEcFJJR3Qzd1JqS0Q3ZlFIZ05maTdra04zMkY2aFZBNng0RnhjVnlENWk0TVQwdVlzU2l6Z3BJNVA3Sk0wRGg0UmhpN2tBcVNQSEl1WkY1UEFoeGxqSXUxZ01NOUlkaFZ3bTNNMy1seU50S3NFcVBnZmd3MXRUUzBXSmRXRmpWRmRyUUllaE9mNnEtbS05ZFYtQVJfZmlxTnpzUlpEd3hJbUlublFYUkl5LWwtMFlNelNhZlJEYTJOSFVoWTNHNlRURlRBMzM5a2x3Wi1oM0o0ZnZwb1hCVVHSAecBQVVfeXFMTzh0SGJMbVFQRHBSSUd0M3dSaktEN2ZRSGdOZmk3a2tOMzJGNmhWQTZ4NEZ4Y1Z5RDVpNE1UMHVZc1NpemdwSTVQN0pNMERoNFJoaTdrQXFTUEhJdVpGNVBBaHhsakl1MWdNTTlJZGhWd20zTTMtbHlOdEtzRXFQZ2ZndzF0VFMwV0pkV0ZqVkZkclFJZWhPZjZxLW0tOWRWLUFSX2ZpcU56c1JaRHd4SW1Jbm5RWFJJeS1sLTBZTXpTYWZSRGEyTkhVaFkzRzZUVEZUQTMzOWtsd1otaDNKNGZ2cG9YQlVR?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T21:13:32.000Z",
+      "tema": "Gobierno"
+    },
+    {
+      "titulo": "Hallan vivo a soldado desaparecido en Antioquia: llevaba seis días sin rastro tras ataque con drones, al parecer, ejecutados por las disidencias",
+      "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQRU9ET3pFa3l4Slc1bER2ZW5LLUFJUVJhVlBZUkNTX1lnVFBqV1liM0hVbWdqeEFoQzl3Y3huMWp1aUlpYXFOQ0REVXdIUFlfNGM3cjkyNDNWM1VOYnNSZE1nY3lRb0NCNWNNZ3I3MVpZSGdOM2FxNmxiWXUtbkdic05JT2JPejB4SHZtdnJ3eXg4dzdDSnR4cVVidzBNempBUkNOemRnRHhZVzdDRDEzS1g4ZlREX0FaWFZmcnVkcF9ac2xmU0JuQy1UUFk0dWRKMFFiSWN6TEtFd25YaWYzWjV5WmZ2NjczejFRcFZ4SUpQeXdka2hBVlVFbnBxRVdYVDNTdjNaU0REN19pMjRodW9rNmzSAa8CQVVfeXFMUGRmdWpuNHF3MDFwYzdSMGZTWkFJTkNTMUp0d3VHQXZYM0YtR0NfRUc2MUw1YUVod2N3akpnUlVJajZXM3lzUkQxeEpYTmJGOHl1dk11aldhak5TcHdEMXMtRkE0cXFxanE1U1NEM1hOa3BrMWFPcXRscXFZSG1nMGRnUzZndkR5RU4xdlNJa2hLbkRUaFItT0taRE42NG51cUhGNkV1c3NFVU05U0hTODgyeU1mVE5kXzNWNVkxZEhNLUhrWmE5UmpzUUVCR0tJQ0taTFZ0UDI0azZwVzQwTklxSTB3RkZ0ZFdwVlYySVpjZnFpeVlQaWZmN2Izd0VHbTZmR0cwTTZfVzh0bjc3U3M5VlhZdDNDWC1pVkt0eEpubWhBdU9hQWdwT09CMGVJ?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T21:12:14.000Z",
+      "tema": "Fuerza Pública"
+    },
+    {
       "titulo": "Petro y Samper piden \"libertad\" para excandidata ecuatoriana Luisa González",
       "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEhmYXMybThoREdyYzlqc0ZJcWg4TGhjdHdnZUhrMUZ6TEpqcjFoaXBENVY2VXZSZVYyUHRMdWwzUUpvUVhlRFBvSG8zaEh0aVZjQ2loSWJYalFMOVJmWVNFeTZ0a1NVYWg1dFZWYmpncjZoWmo0dkw4R0F0QUFsMEJPeXZIcFJoa0g1ZUc3RjBzaGs1ZmNFVC1pdm9jRVhQb3NENk9nZw?oc=5",
       "fuente": "Zona Cero",
@@ -58,11 +149,46 @@
       "tema": "Petro"
     },
     {
+      "titulo": "Paso firme de Colombia en su debut mundialista",
+      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZmxUQTlLczR1RGgyeGNJVWNKQkhoczlYOU5aTjB0ZDRfcFc3SDVxVm1LU1FTV2I0RFBnQUxRVkVsQmt1MHF1VWFJOVdyeFl0R0JEVnNwaHRKZWl5VkFEVHlaZEpoRlNaRjV6V0VpaE5iYnYweXNVVVZNNnQ1eHA3LVBCRXgySnMwS085WGlvT2Zld9IBpgFBVV95cUxNRzZpZEJ1SUl3RnJGZm9EVTVSazhVeHdPLUtST1ItMko0eDgyNHplTjZ3YTlNeDd6WkpBZUVyWFZIbDU1bHRleFBnTGpfdm9oY1BQeTVJVEQzSzdRRV9ERGM5c1JCUl8zaV9ZWDNmN1FJc1FNMjZYeHg3LWdldV9FMmRfSEN0ajhITjZoa29JSTVudVhWRnF6M2k3TFVMZVdDSjVzaEJn?oc=5",
+      "fuente": "AS Colombia",
+      "fecha": "2026-10-24T20:43:59.000Z",
+      "tema": "Última hora"
+    },
+    {
+      "titulo": "Expresentador de ‘Día a día’ creó polémica sección para irse en contra de Abelardo de la Espriella, ¿cruzó el límite?",
+      "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOM3JFdTZMTWdOYjdwVjhfTF9VTnF3WHRWZ0NQSTRMWkdlQ1VTOXFidFlmYVFDd2daanA5WXhYa2RwNHVma1loME1HeG1PcFdGNEJ6RHdwQ3pRZ25HZkFXYlduUXh4RHZTZ2N2LS1zN21GdGVhdVpGZjZMLWF0TWd4Y2tydk0wNk96ak1tS2RQbHUySUxhcmw1UnVWYlFUUHktVFpmMmpkZFRkRmVNRUZnZjJZUmxkV1NZWWdSQTA4LTJyWHh5ck9Mc1p5Szg1dnEtWkdhX1MyTGxpNXFfTFdJakdXa2JMbzRMQ3BFQzU3Ukd1MzBxNGJr?oc=5",
+      "fuente": "Publimetro Colombia",
+      "fecha": "2026-10-24T20:25:53.000Z",
+      "tema": "Gobierno"
+    },
+    {
+      "titulo": "Emergencia en Cartagena por aguacero: crecen los reportes de carros arrastrados por arroyos, calles inundadas y trancones en varios sectores",
+      "enlace": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNSDJ2Tm9BVDdVZXAzdFZiZWZ3MV8zdUUzYkJERGxDallZb0FlWTIxVVpaVHBYaGdTNE5xYW9XUFd6VVdnaDg4dDBMVGYxMmd0bDJXZ2VWSDZWcnc5Y1BIb3lhRnpFQThfdTVtZU9jeHB1ckFESUUwR3AzUjZIelNvQ0xWZ2NJMHBSbFlqcGw3Y3B3OEJvRWtYOHVSVDR5VnV2TzJDYm1XU1o0aVRYaUlDWGkyZ25uUnFkVld0QnIxRnhKb3AxazgxMi1BVkVQd09xUXR3X1hDazJ4N091eXluaDgxaDdZajFCeEdfTzdUdjhYLTlWTWpPY3hBUTl0WDM2WDRHeTFLbll6VHBtaDdSdExmMWhOM290Z3FPclVna2Y?oc=5",
+      "fuente": "El Tiempo",
+      "fecha": "2026-10-24T20:18:15.000Z",
+      "tema": "Última hora"
+    },
+    {
+      "titulo": "Senador Kevin Gómez asegura que el Gobierno De la Espriella “no firmó ningún ‘acuerdo estratégico’” con el secretario de Estado Marco Rubio",
+      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQc2x2MHNqWTVCZWRNdnZiSmFBSHJnLVlGN1YyeFhwaThJd2tKOHZpS1NVaUZ2SFNnUF9BbkE5eTZkdUh4WUluVU95c1ZtWmpoazBMZUpBN24xVFlkVzdYTGlXUFJhck96Tk5jd0ZaVGZkWm1CMGR0NTJMZWI4VjZPdFFGTzRnQ0VsQ19BRklySHBTc2FLYXpycmVidVk3TWxEdEtrT1UwRnQ5WXJYeFhXdGZDdFlJdEs2S0pfODZZTTdHOXV2N3gzOXNEQWp4ZmpidzdFVmNXRVloNWJQYU11c29XcG5udnJnVzl4bkNVZnRLZDk5OVVuZ3JORXNfbkhBcm1NSkFBclNhTldk0gGnAkFVX3lxTFA1amxsZFFVamVLVGJ4RUtMelY3dFNkcUpjOHAxVFctVmRCTVluNk9YRGRFZVpFUG5zcGJldVNSNUUxNkVReUZxekcxcE9FWS1Rc05tbGZoWXpwMDh1blZQNVJKYkJobDZwRVlUQWpOOFhwQlZiaEdWeFg1N2FvTE1Xb01fbl9wNjRmNnJKS0JnbmJsRDQwa20xNUVMbVFwcXlfcUJRX1N1cENUb0NTNFpyNDBNZ0lOZ0Jfcjc3U2ZtMEhPY3Fmb0gtWlF3cjVlTXFmV1YycGpXX0dSZ0RVSVpFMkdqNkR0anNXWEc3S1kyTDgxTkZjR1pfU1ZKajcwNUNkVkVodVNlUnEyQk5rbExGNEtBOEFLQXRYUUhCMGNoakFfSXR4VkE?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T19:51:00.000Z",
+      "tema": "Petro"
+    },
+    {
       "titulo": "Rodrigo Lara deja el Ministerio del Interior y Alejandro Ordóñez asume en medio de tensiones políticas en el gobierno de Abelardo de la Espriella",
       "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONWZYSkdIM0V1UEdTQ0xLakNua1lHWEp0WGwzcVpkdUlRQ1l5UDRpbnVfWkw3UDFCWnBibTkyZ3plbzdXZ0hUcnZhZzI5MXcyY29EbzJLTnJMU29jNXBIeW9aZUFkV0ZpQ2JoRXlpT1M5dTQyLWJhbUk3UjlScHJaR09xLXlJZUZ4V1BIQTI3UGY0VnVGRFlIRUNOUElfV1VSaVZpUHEzVGc2VUIwbmhNQ2lNd0RaU2t2TC1KZWlYOWJMelo4R29NMEVtckdlUkhVYm5QRkpZNW01T3FtMWFJ0gHkAUFVX3lxTE1GMS1NQ0pPNkcwLXo2UENZenRKbDhNbExBRWVNYjJQamdVcVJodEFtYXhMTEhJX01KWGNhSU9rV1JhYmJuc1Azd2ZmTGN5OUx1N0dFeWlKOTUxS0NJVkhmN2F0OV9TeXFMTG9lRnY1RUZkNW9rV25BUnhhVVlMZmtSbWkzUjNTQ29GRE9MLVlmVVItZjJmV2JlTWN4cUNZNHQ0eXVVLWpsSkZHRDBQcEVEQ1ZackQxMVVFWjBVTFlxRjJralVuWlNTTGxzYUZXbW9IcG81X0x0MXVFNjZxLTh0S3Z5Mw?oc=5",
       "fuente": "Pulzo",
       "fecha": "2026-10-24T19:50:44.000Z",
       "tema": "Gobierno"
+    },
+    {
+      "titulo": "“Mientras, Petro se rumbeaba el país”: le dicen al expresidente en reacción a la portada de SEMANA",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ3hoN3BMTmZUQXVZLXpNdWIxbHpHVHZ0VXVCMTVZVmxzV1AyZVBFWmczdmlIT1RCT21oLU9iYkotOTJPZEx6M0hQOHBkMHZEOElKRVdORGpReldXWUlNWmVRMjFYSVFuQWdxVk4xbVFKM2lycE9NeEdJRHVicmUxNzREUURUZ3ZIMko2Wnd3NU5RenhYNnhCbFZQdldZbDcxYkVTc1FSRTF5S2NFVmdCMDUzOUQ2MGJmbGU4ZWQ1RncwenhNN2EwWU95LS1YZXFmUmxLVEhhQ1EwaWJaa3puVm1wVdIB6AFBVV95cUxQcnd0YXRaOTlBeFZEc2pWZk5HU1hZTW1YVkZzN2h1SlRyS2FLUS1fanZ3S1lNazAwSFR3NTRpWl82MVdabTdwemhBV2gyeHJSRmtFTG0xamxFZ3MyYjBxQW1SdTR5YndQd19pOVpLbDI1My1LSjJ1Unl2QVQtVGVlaFZOWHl3d0MwdDdjVm1wUDhlZUtlMlZEMi1QZV9hUjhidG9rYnNULW44N0ltLXl1cTNoWFFJYXZaOUhjWkFIek9NMGpGMmNENDJ5dlFXdXhhV2pTUk9sVlRQWTdjMHV0NTJFNklELVpZ?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T19:43:04.000Z",
+      "tema": "Petro"
     },
     {
       "titulo": "Cancelan inauguración del Gran Malecón del Mar en Cartagena por lluvias; iba asistir De La Espriella",
@@ -72,18 +198,18 @@
       "tema": "Gobierno"
     },
     {
+      "titulo": "¿Qué hay detrás de las fotos que relacionan a Gustavo Petro con alias Fito? Esta es la realidad",
+      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeWpqSlcxVzJLbXFubGRNa0x2SVVOVkxya1l6c1RBNGdqRzJjSHBoNTltdF9aWERUVldLaE5XMFBKVjRWUjczMUotY3M2Zzd5VG5IY19uRUxYZXhSN2haU2JXUU9XR3VqMzZfOTFNbEstbjJxQ0I2ZHl2NTcyYzV2TzVTQ1hmREpoYWxRVGh4cXRKZ1FQSmE0?oc=5",
+      "fuente": "Minuto60",
+      "fecha": "2026-10-24T19:34:00.000Z",
+      "tema": "Petro"
+    },
+    {
       "titulo": "La exmagistrada y expresidenta del Consejo Nacional Electoral (CNE), cuestionó el manejo del entorno del exmandatario y afirmó que el discurso de Abelardo De La Espriella ha empezado a ganar apoyo en la costa Caribe",
       "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVjh0WUhJS0E0cTdwQ21ubldGOHpDblU1a2dUQlEzRFFkQlVIRjNINnZzREZCcTBlQkJ6RDJxeklLWGtfMUVacUc5eFVIa1daNDNUU1FjdzRaRzlsdzFocWk5dVB1eUJxT0REVFExMU5rcUF5eUsyVUI0THpSWHVDM1B1WkkyM1hSa3VRSDJGMC1jTENpNndNbk5ZWFU0Qmw2ZTlHd2J1eTR2VENIWEszX3N6dHFOMDNZcVFNNkZZVGRPLUNDWmszalJPc1h6X0FRQjFWSDVHbGVVUnZBRzAyY1cxRUo?oc=5",
       "fuente": "Facebook",
       "fecha": "2026-10-24T19:29:52.000Z",
       "tema": "Gobierno"
-    },
-    {
-      "titulo": "“Mientras, Petro se rumbeaba el país”: le dicen al expresidente en reacción a la portada de SEMANA",
-      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQ3hoN3BMTmZUQXVZLXpNdWIxbHpHVHZ0VXVCMTVZVmxzV1AyZVBFWmczdmlIT1RCT21oLU9iYkotOTJPZEx6M0hQOHBkMHZEOElKRVdORGpReldXWUlNWmVRMjFYSVFuQWdxVk4xbVFKM2lycE9NeEdJRHVicmUxNzREUURUZ3ZIMko2Wnd3NU5RenhYNnhCbFZQdldZbDcxYkVTc1FSRTF5S2NFVmdCMDUzOUQ2MGJmbGU4ZWQ1RncwenhNN2EwWU95LS1YZXFmUmxLVEhhQ1EwaWJaa3puVm1wVdIB6AFBVV95cUxQcnd0YXRaOTlBeFZEc2pWZk5HU1hZTW1YVkZzN2h1SlRyS2FLUS1fanZ3S1lNazAwSFR3NTRpWl82MVdabTdwemhBV2gyeHJSRmtFTG0xamxFZ3MyYjBxQW1SdTR5YndQd19pOVpLbDI1My1LSjJ1Unl2QVQtVGVlaFZOWHl3d0MwdDdjVm1wUDhlZUtlMlZEMi1QZV9hUjhidG9rYnNULW44N0ltLXl1cTNoWFFJYXZaOUhjWkFIek9NMGpGMmNENDJ5dlFXdXhhV2pTUk9sVlRQWTdjMHV0NTJFNklELVpZ?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T19:25:29.000Z",
-      "tema": "Petro"
     },
     {
       "titulo": "Fiscalía recibe denuncia contra las hermanas Guerrero por presuntas irregularidades en FonIgualdad",
@@ -93,10 +219,24 @@
       "tema": "Justicia"
     },
     {
-      "titulo": "¿Qué hay detrás de las fotos que relacionan a Gustavo Petro con alias Fito? Esta es la realidad",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeWpqSlcxVzJLbXFubGRNa0x2SVVOVkxya1l6c1RBNGdqRzJjSHBoNTltdF9aWERUVldLaE5XMFBKVjRWUjczMUotY3M2Zzd5VG5IY19uRUxYZXhSN2haU2JXUU9XR3VqMzZfOTFNbEstbjJxQ0I2ZHl2NTcyYzV2TzVTQ1hmREpoYWxRVGh4cXRKZ1FQSmE0?oc=5",
-      "fuente": "Minuto60",
-      "fecha": "2026-10-24T19:08:53.000Z",
+      "titulo": "Gobernador de Antioquia ofreció recompensa de $100 millones por información sobre el asesinato de la niña Jhady Sofía Osorio Mesa",
+      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdkhvZDJwejBwb0lGeUtYMmVzMWlkN2NYV3drTnlULU9xUUN1YjdRVkVYMFN3eUI1TGtHTmRPX0dMSnQ0UnhCZGRuQ0o3RnM3TkFhMFNrazFHSm1ZeXQ1RjVSRkpmeXozcjZ4QjI4NE0tc3o0Rk5VSWU1VXBrM3dlWFQwNWtPVmFmUU8yU1VHbjF4bHo0c1pDQ2ZLRlptSnhwaXY0Zzl0NWRFTlhTdjVXU1k2ZnNld2lERjF5ZnB3NVhObXVGRmV5bWt6SmVuUWJfQm9hdXdaR2NRQXU2aWFUR3ZmSUFpVV8xNG9qWFdJYV8xaGhTbmx4N3pQbmN2ak9vNVQ00gGeAkFVX3lxTFAycXgtVktBOWlNbzhRMUNobmJvS0NOUGJ3RUM5cm5iLU12WjhnazNvZG1CMTQ4MGp3Z1I4MWxsRE5TZkFGczF1U2ZtLVJ0ZnVSVFNRUnBTLVE2LWltVmJtZW1HdnotekptVm5iQzYxQ1dHb3Y0TXFGNHJhTV9lLWFHcnM4bXN5WlJqeDg0cklsYjZ4WklCTzYwVlR0Vi0xOWZhaUlLeGktTTdVZFl2TW1SbnZYMGdVWVpTVEQxcG1QU1V5cEt3RUVuRFFFa1VlX2dMYVU2cy1ocFNPV0tYMUdsRUhzTEJtN2tOT3pKZlV6MVN4QW1iM2o2blFYM2FyMDZFenc2c1FyeHpHcjYzSjNKcXYybmpETW9tQWo2dnc?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T19:17:00.000Z",
+      "tema": "Regiones"
+    },
+    {
+      "titulo": "Exministra de Justicia Ángela María Buitrago cuestionó reunión de funcionarios de Petro con excabecillas de las AUC: \"No puede ser bien vista\"",
+      "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPWVM3ZnMxVFlLOEhOQ1owYS13T3BWNUlON3YzMjhOczEzNGxPVnJidjRPVmdUNENvR2ZwYU53T1YweTZyakJkTXMyVWM0eHY2TlF0TUFzaWU2Q0xCSlk4YkdKaXpmM1FSMU5IY3FuQVk2Yjd5Q0JlN0ROQ3VRc3NYN2EzNUtpYkVJRzA3U25FZ3NHZ3Y2WXAxUm9ISkVSUHFpUktFZ0NGWGJfZW9mWnpEaWh0UkRVcnkzQklkRC16TVNfazhkMUdldDhLRnlXVHJPRE43VE05bEVja2h3eVBJb1FLUFZpREUwdGdobUtmNzNnRHprTnRVYzFQQ0dtR0pxc0NpMnlWWWdqTFpsXzQ5WXlB0gGsAkFVX3lxTE9PU0k1MmYzZDFkWGlWVkpVOU9kTEZSMnNncGQ3T1U5MzRkbldWZDhTYXUwQ2pjcG9BemlhRTlfSVNYVnJwazVvci1qVUtKMG53X1g2YmJCV3djOUNBOE40MWcyTWtDSjhIdjJjLXVKTk5kQkh3UXlkanJFWFE5cnN1YXlYRDlQcVBpWWFjamhSWUNRRGRRMDZueEZlaVdzY0ZtR1lvcHJLXzBaWHhPVjlRcVpCZ001TkNSZ19fMG9WaTRkM29tZnp3Q244azBqcUl1ZDJhdS1RaHpEMUhsV1pJOU5veEp2MHRaVlZYUm1VbUtSZDBkck1CNkZieE5ScTF1a29kbHpyS2taTFpBbGZaUmRiNmNrQ2daLWJpWjZhcUJFMVVzdWY1Vkx6cw?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T19:11:00.000Z",
+      "tema": "Petro"
+    },
+    {
+      "titulo": "'Colombia necesita conocer la verdad': José Manuel Restrepo destapa la realidad del país tras gobierno Petro",
+      "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdzJjc0NGTThkS25NbWxLVHRWeHpYc3otcUk2NWl3Rl8wUDVWdEgyaHVBTHVoblZ4bUFKWmY3RFlYcTRCTWJrTWUyRjdpbmlxZEZzNWsyN01WM1hNNVpTQlZrbTE4Nm1QLXdWTXQ3S1pCSURIcFlrT081d3BKazM5ZUFqVWhEWUY5OElSMjY2VlBfLUNfY0VhenlENnFvNUtQSTQzOFk1TXdkUjJCeHZkSG5pRkQzbklkbXR2YlVrM1lueFROOUlfZEgyTU45RzdBM1RsNXIyUUZ4VlhJQ1Zabzlfa2Y0TW9UeXQwa3RFR0VDaWtTQU9jV3Bhb2c5MlZXV1E?oc=5",
+      "fuente": "RED+ Noticias",
+      "fecha": "2026-10-24T19:05:38.000Z",
       "tema": "Petro"
     },
     {
@@ -114,20 +254,6 @@
       "tema": "Última hora"
     },
     {
-      "titulo": "Senador Kevin Gómez asegura que el Gobierno De la Espriella “no firmó ningún ‘acuerdo estratégico’” con el secretario de Estado Marco Rubio",
-      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQc2x2MHNqWTVCZWRNdnZiSmFBSHJnLVlGN1YyeFhwaThJd2tKOHZpS1NVaUZ2SFNnUF9BbkE5eTZkdUh4WUluVU95c1ZtWmpoazBMZUpBN24xVFlkVzdYTGlXUFJhck96Tk5jd0ZaVGZkWm1CMGR0NTJMZWI4VjZPdFFGTzRnQ0VsQ19BRklySHBTc2FLYXpycmVidVk3TWxEdEtrT1UwRnQ5WXJYeFhXdGZDdFlJdEs2S0pfODZZTTdHOXV2N3gzOXNEQWp4ZmpidzdFVmNXRVloNWJQYU11c29XcG5udnJnVzl4bkNVZnRLZDk5OVVuZ3JORXNfbkhBcm1NSkFBclNhTldk0gGnAkFVX3lxTFA1amxsZFFVamVLVGJ4RUtMelY3dFNkcUpjOHAxVFctVmRCTVluNk9YRGRFZVpFUG5zcGJldVNSNUUxNkVReUZxekcxcE9FWS1Rc05tbGZoWXpwMDh1blZQNVJKYkJobDZwRVlUQWpOOFhwQlZiaEdWeFg1N2FvTE1Xb01fbl9wNjRmNnJKS0JnbmJsRDQwa20xNUVMbVFwcXlfcUJRX1N1cENUb0NTNFpyNDBNZ0lOZ0Jfcjc3U2ZtMEhPY3Fmb0gtWlF3cjVlTXFmV1YycGpXX0dSZ0RVSVpFMkdqNkR0anNXWEc3S1kyTDgxTkZjR1pfU1ZKajcwNUNkVkVodVNlUnEyQk5rbExGNEtBOEFLQXRYUUhCMGNoakFfSXR4VkE?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T19:02:38.000Z",
-      "tema": "Petro"
-    },
-    {
-      "titulo": "Otro lío para Juliana Guerrero: fue denunciada ante la Fiscalía por presunta intervención irregular en FonIgualdad | El Colombiano",
-      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMzNESXhKVHRwWEhoeDY3UHJxNC1td3lFYnBLSzRCMUg5Wkd5cW5ndXNzTlUySm5BNThFbnpoMWE1eERiQzhXUnVlb09ib241dmlXYnVSb3dtbzdCUUJPdVYxUVp2U2d5S2R1ODhSNkd6R3djSnNnaklKNENwVGVKSnRfdzlZY1RRM0g0OWotcFpSU01lb0t5M0JIc9IBoAFBVV95cUxPREJmdjVzdFdaZUJHNVBremdiMjVPdmo5bFI0bi12OU4ydEpZdURrc1dLTTJUQ0l1NFBMeDh4MnIyZ09GY3h4NkRXODhTamtROFcybERJRGxCcHIyWGNmSnY2NjdXWG1UMEJyNVFkWVZlUWh5VnJLVHNuTGZHdkM5RjVxTVhBQkkzUXVZQ19TdnJsbFY4T0ZNX2hnV1FhenNY?oc=5",
-      "fuente": "El Colombiano",
-      "fecha": "2026-10-24T19:02:21.000Z",
-      "tema": "Justicia"
-    },
-    {
       "titulo": "Consejo Superior de Política Criminal avala proyecto de ley de sometimiento; Corte Suprema advierte posibles riesgos constitucionales",
       "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeWwzNE9jQU5VSTM1Vmkxb0N1WmVpQnZTcFVwelZCcE90a0k0LUgzVklPR0ZQend6WnNWaE5sNnNFYlctakNjYnp0SWdsbnhoMC1JRndKWnhQR2NvWDZ0ckVjb3RaU2s3bnd0QTVNOHdTTnFYdGFzaHRFVlZ5alZZRzVEaURTa3lMRlNLMTNoc1dQaGlVek9hc1JPb1VsQ0Z3UE9FVWQyU0kxVnBCSVFqSEpkOXVuYnQzYko2Z2piNERVSEg5UEJSeV83a2pEOEF5Zi0tTdIB2gFBVV95cUxOa0x0RHU0RWNxS2ZjU2J3MmQ2Vy15aWxHcG9rcXdzMkhhZ01tcV9ENHlJVXBSNVhDU3pFa3BoUUZaU3JJa0ZCXzJtcW1nOThYMzdQbWdlTHVYR1VjeV8xZGx1THg4Ul8wTFRqcUoxeUlqS0t6WWVrM2Fob1RoTGVUWkdTbWo1SzV0ODRTWWtyWk1KM1JPUWxEWHBERk5udDlVTVJFSEUtUTRfRjQtamZHczB6emE3YnEwSzgwMldYVERUWjY1VzBLWnV4cllzNkxBdzF2ZWVnS0JOQQ?oc=5",
       "fuente": "Pulzo",
@@ -142,11 +268,25 @@
       "tema": "Regiones"
     },
     {
-      "titulo": "¡Atención! Medellín será la sede de la Coalición contra Carteles de Las Américas",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjk1MnllVEd1LWp2MjlWaXZJbTRwVmdERlVMajdmdHVlVWVfRko0RHA0a3RjRjZOZEZtN2F3aVBpRnpjNlhCbklfTkU1MnZaUDZhVEZUR0dLcDEzX3FveHcwR055N2pkMjlLa0U4dGV6aFUzTTNrVkIwaU56aG1ZWVExeUd6Z3dfdl9VeXFWd3lFU0lRVEtydGM4SEIwNmw2czZwTHVWRHE3bUE?oc=5",
+      "titulo": "¡Atención! Medellín será la sede de la Coalición contra Carteles de Las Américas | El Colombiano",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjk1MnllVEd1LWp2MjlWaXZJbTRwVmdERlVMajdmdHVlVWVfRko0RHA0a3RjRjZOZEZtN2F3aVBpRnpjNlhCbklfTkU1MnZaUDZhVEZUR0dLcDEzX3FveHcwR055N2pkMjlLa0U4dGV6aFUzTTNrVkIwaU56aG1ZWVExeUd6Z3dfdl9VeXFWd3lFU0lRVEtydGM4SEIwNmw2czZwTHVWRHE3bUHSAbABQVVfeXFMUEd0UzZhX29ndzd3aUxSM2Z3RmJaV2VoOG9VMHd0M1FwamNFTFVITElpRXM3UlVFT3dYOFNVYXhRTzZ0ZWhOQ01tREdvYURYZmw2WUhhTlVNUHVKR0d3czc3dmZfRXp0d3JxSnJ5dHh2aXcyM2pCem50TGx6aFBuTTZ3d0QtVVp2YWVxSGdLbGZmak9Ec1k5cnFYcjhtRWN2c3AyRkdweVNPTkRsV2lUenA?oc=5",
       "fuente": "El Colombiano",
-      "fecha": "2026-10-24T18:51:15.000Z",
+      "fecha": "2026-10-24T18:50:30.000Z",
       "tema": "Regiones"
+    },
+    {
+      "titulo": "Otro lío para Juliana Guerrero: fue denunciada ante la Fiscalía por presunta intervención irregular en FonIgualdad | El Colombiano",
+      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMzNESXhKVHRwWEhoeDY3UHJxNC1td3lFYnBLSzRCMUg5Wkd5cW5ndXNzTlUySm5BNThFbnpoMWE1eERiQzhXUnVlb09ib241dmlXYnVSb3dtbzdCUUJPdVYxUVp2U2d5S2R1ODhSNkd6R3djSnNnaklKNENwVGVKSnRfdzlZY1RRM0g0OWotcFpSU01lb0t5M0JIc9IBoAFBVV95cUxPREJmdjVzdFdaZUJHNVBremdiMjVPdmo5bFI0bi12OU4ydEpZdURrc1dLTTJUQ0l1NFBMeDh4MnIyZ09GY3h4NkRXODhTamtROFcybERJRGxCcHIyWGNmSnY2NjdXWG1UMEJyNVFkWVZlUWh5VnJLVHNuTGZHdkM5RjVxTVhBQkkzUXVZQ19TdnJsbFY4T0ZNX2hnV1FhenNY?oc=5",
+      "fuente": "El Colombiano",
+      "fecha": "2026-10-24T18:50:24.000Z",
+      "tema": "Justicia"
+    },
+    {
+      "titulo": "Falleció la patrullera de la Policía Nacional que resultó herida al impedir caso de hurto en Cali",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZlBlM1k0M0EzTTZoNkV5bk4wLWZ3emxwMWRDSGRRNUx6eGs4aFdqQndKNE5SWVV3LTEwUWd1NzZ1elRZOFFlanQ3Y3UwRWpDRHRRSERzV2NqX3dKdVpfNlM3eUFvMGU5XzF4dUJDbTZ1d29tM2ZBTndSS0xfMTc1eVdWZHp3eUI3UGVnVjZCWVFWTExRSEh3a05MeVpja2xfY1poNm84Tkp2WnBtanREanZpUDJlTTJVbWdHdHlEcEpGNGJEZl9KbzFvQzQ2SDJ3WmIweFdkN0tyeWNZYzhVM2hvZw?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T18:47:41.000Z",
+      "tema": "Última hora"
     },
     {
       "titulo": "¿Quién era María José Recuero, la patrullera de la Policía que murió tras un atraco en Cali?",
@@ -177,11 +317,11 @@
       "tema": "Petro"
     },
     {
-      "titulo": "Gobernador de Antioquia ofreció recompensa de $100 millones por información sobre el asesinato de la niña Jhady Sofía Osorio Mesa",
-      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdkhvZDJwejBwb0lGeUtYMmVzMWlkN2NYV3drTnlULU9xUUN1YjdRVkVYMFN3eUI1TGtHTmRPX0dMSnQ0UnhCZGRuQ0o3RnM3TkFhMFNrazFHSm1ZeXQ1RjVSRkpmeXozcjZ4QjI4NE0tc3o0Rk5VSWU1VXBrM3dlWFQwNWtPVmFmUU8yU1VHbjF4bHo0c1pDQ2ZLRlptSnhwaXY0Zzl0NWRFTlhTdjVXU1k2ZnNld2lERjF5ZnB3NVhObXVGRmV5bWt6SmVuUWJfQm9hdXdaR2NRQXU2aWFUR3ZmSUFpVV8xNG9qWFdJYV8xaGhTbmx4N3pQbmN2ak9vNVQ00gGeAkFVX3lxTFAycXgtVktBOWlNbzhRMUNobmJvS0NOUGJ3RUM5cm5iLU12WjhnazNvZG1CMTQ4MGp3Z1I4MWxsRE5TZkFGczF1U2ZtLVJ0ZnVSVFNRUnBTLVE2LWltVmJtZW1HdnotekptVm5iQzYxQ1dHb3Y0TXFGNHJhTV9lLWFHcnM4bXN5WlJqeDg0cklsYjZ4WklCTzYwVlR0Vi0xOWZhaUlLeGktTTdVZFl2TW1SbnZYMGdVWVpTVEQxcG1QU1V5cEt3RUVuRFFFa1VlX2dMYVU2cy1ocFNPV0tYMUdsRUhzTEJtN2tOT3pKZlV6MVN4QW1iM2o2blFYM2FyMDZFenc2c1FyeHpHcjYzSjNKcXYybmpETW9tQWo2dnc?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T18:26:50.000Z",
-      "tema": "Regiones"
+      "titulo": "Ernesto Samper rechaza detención de Luisa González en Ecuador y advierte sobre una posible “dictadura encubierta”",
+      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUUNjREJ5S0wtRnoyb0llemR0S0Q5T3ZRS3ZPUnhKM0ZMWGhPeEhxNkp2VDV0TFNWNWMtX2MtaGl2UjB2djhLZGYxRVdUN0xwTzlFR2paVG0yX0ZtX1JTa3BVZmdET2tDTk1ENnd2cEZpWjF4YWRacjB1N2FFLTlVX21rMm9LdW85aFA3OURGakwxbl9ONHJjZzdhZm9ydXRfckswbkdMLWJjZmNXYUhaU1M2ZUE1N3FValRkZmpWbklHdU12TDljYkF0VzZGVTdNUmhHTDI0OWJqdnI0ZmdTSUxXUkI1NU1NcFVVZ04xQWtrMXBtUFHSAfsBQVVfeXFMTWgwS1lHbTFWYmlHSFQ0X2UxRGtaQ0tRR0Vvc293blNuUnVjcEZvR3MyUjQ4ZkFpbnBXS09tX05wbTJ1cTFXQ3NVN2ZDclJyYmNPLTdMUWVFaERXOHVOTGhJNEJid21PMWQzekdiNS1NT1Rvck41dURfM3doQ25uUDRRcTkxNkdHQ0lERG5CeWtoRDFuc1UtdDc5TXVTU2g0VWUwUThMQXV4ejdLRlFxLWdYbEh1aUxWQng0bTR2YUJjTEZjQTlCM2N3cGhMVkJtaVNyYTFBUDhjbFdIOHZzMVBCanEyTXhxX1FIWlN4OEZOcXBfcXRhazlIMEU?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T18:31:53.000Z",
+      "tema": "Última hora"
     },
     {
       "titulo": "De la Espriella encarga a su exministra de Educación desmonte de la ‘paz total’ de Petro",
@@ -189,6 +329,13 @@
       "fuente": "Eje21",
       "fecha": "2026-10-24T18:20:27.000Z",
       "tema": "Petro"
+    },
+    {
+      "titulo": "Santa Fe vs. Palmeiras: hora y dónde ver EN VIVO la Libertadores Femenina",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQWNLM0JDenFWT2hRbk5tMWpScHpuUm5XQUlDcG1yelhINDhac2xjLUZFbWxNSnk5SVhpOGdqdkQ4bTIwQW03RkNhRE9pLXRTNC1fYXh5QnNVc2tOYzZ2aHIyOEZiX1psNlRTb1R3a3FFdnM1c1Y1VkYtbGtwNHJvN3dlS1prNUhFXy01X0xCV3dJQ3F6cXZoZ05YZ1FVb3FBN0FKRlVqZmlscTgxcUZiR2dlcmo4OGtPM0poZkthYll3V1kxaHVqS29rMFptQQ?oc=5",
+      "fuente": "Win Sports",
+      "fecha": "2026-10-24T18:13:35.000Z",
+      "tema": "Última hora"
     },
     {
       "titulo": "Insólito: dos policías habrían exigido dinero a un civil por revelar secretos de un caso de narcotráfico en Cali; así operaban",
@@ -261,6 +408,13 @@
       "tema": "Última hora"
     },
     {
+      "titulo": "Lluvias obligaron a aplazar la inauguración del Gran Malecón del Mar en Cartagena",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWkFUYU1kbWxIYWt6aU9pTWh4ZHFOVW90ak5Cc05zSlZLZ0VoUHZNNldnaUs4cjUyOVBSc05BTEJCN0Y3bUFWSDI5ZkhfWjlfaWl2ejY0S1B5MlExbGhSLWlTaURtVzZXc2RwMEc1NUJiNGM0ZENiRFJxYWZPcmFqQXMxcWZOb0pJWWxBUnpnclRjVWVWZktvZXpTTE9LbjJmRDJvTFhXMjkwMGE3T0FHSGhjZnMzNVHSAcsBQVVfeXFMTXRKYXJmVmk5S2hpY1hPSm5wLU5iWnc2ZDE3X1JXaHdCVVYzZE1JcGJFOG1jTWFlZmt0RmJacWJsZUx4X3dDaWxCd0xHdGZEUG54YmZaRmtibFlsMnJBZWVzZ0ppVEFqZGEwLTNjZDVQVnNCd3hVQjA2RjhPb0dMMXBvNmtYdVFkVGhfNkdJWXJaNmU1U0V4ZEgxbVZldjJLM0w0WTdQVjRfdFlNT1dxVUNDczNYOHZlY2NFNzUxNlBCajhTZmEzN3hRUUU?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-10-24T17:37:06.000Z",
+      "tema": "Última hora"
+    },
+    {
       "titulo": "Corte Suprema insiste en traer a Leonidas Bustos a Colombia: Gobierno confirma gestiones para su extradición",
       "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSDNSZTFXdnh0akxSLXAzOFNBTjhRaURPS3gxckFDcWZZVFdpWURQNld3NlZzd1FSX1k1YWFnSTdic0cwRlVwVDFwQkdyUUl0TUwxRUVCLWg2TlZkeHRJS01wUmxFbGlBVTJORlEzd0psYlJ3bC1USTVlcDBmZmgxYU9wNEFqbVlndU9DTV9GUnA0RmZ1TXdBRmtJdF9tYmV4bFdVTDc3MU1jcjJ6OVBYZzJfWTI0QWFiUkhLQzFLVk5yN29OZ2R2NUZLdjJxSFhMUG13eVBMNE02RXkta3hzX1I3WHdGZWk2anlXOW1idDQ?oc=5",
       "fuente": "Colombia.com",
@@ -310,6 +464,13 @@
       "tema": "Justicia"
     },
     {
+      "titulo": "Iván Cepeda cuestionó las afirmaciones del vicepresidente José Manuel Restrepo sobre la ‘bomba fiscal’ que dejó el gobierno Petro: “El cinismo es monumental”",
+      "enlace": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNLW5jXzRBTVNjN08wSU1BYTJxUTAyajlnZVl2Z1pGbE90bkIzYi0tWVk2alVmNFlQZmRzS1pub1lRUTZLOHVEb0E0QkgxclZZV1IzdGRLZG1ZUWFkOTRhRk8wV0JWWEtsRkdIWlJHc1Y0X2tUM1ZTVlRSSFdzNGJTalVsRnBKZnBocE5pVk56bnRHVUk5alpzb2Y3Si1ZNUtZdFlNNEhvampVTld3alFRZnRfREd3YTE5QnBlaEV6bVdnVzU4YkVYbnRlMlczNl9Za0dxeVFFU1FXUkZFYTgzODJ0bnJZWGk0OXQ4dEQtaFR0c0JCbXJVNHNFeVZ5VHpPZ29QeXZkbUtkX0JmdnpubkZTZVZidFdveVd2YmNYUDFGc3fSAb4CQVVfeXFMTm5KWkRJcEk2QVJFcjdsbjE1Q2VTTDVQeUVLeWo3c3JoM05ranpyY0M5WDg0WDdyNkQyTmVRa3ZnbkhyZ3p3VFRFbE9hV1d5ZjBEdGFlelRfd1k2MVcyS29JUjh6c2ZIQ2VqUFlaQXE1ajhwZU5NbFM4QXZNR3o5Yno4QnNmWFJidElIU1NEbmctWmQ4NUY5clNRcE5GcGQ1cXFGOWQxcXBOYXNEclYwRnc4ZWRmVDZyUkYxR1V4ZkxHcDdrNzAtRlI3YjVDRnhrM0VkYnh5Zl81MmJIa1pvaWtZRU9pelhVb2wtclh0VktsdUtrM1hUX0ItZHdNcHBQRjNjUlFUUnJqdWdCRmFiNG5ZOHNqM2U2bC1FX0l4NUhBbms5dm9hT09IdjlmWnk5TEVVUmlzbW1zbWFVb0VB?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T16:58:00.000Z",
+      "tema": "Petro"
+    },
+    {
       "titulo": "Gobernador de Antioquia visitó a los cuatrillizos y anunció vivienda para sus padres en Caucasia",
       "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQM2ZDTTN5VlV6RU42VmMtN3ZYSVRQUU9SYl9iZllQeTZwSlF4YWFZRV8wLVVoT3Q5U0xTVU9lTWh2RElsdzY1QTZkZ1pyWHFmQ0pmM2RkaHZITkhLaTJzMHpLU2dzM2s0ZmxLNi1OU3MycGdfdnJ1R0dXSDl6ck9nTzRKZzBfNUlGaVA5VkRUdkppelhfd0lJSTdIVUtPZjVzWEt5UHoyLVZTSWFmVnp0V0RiU1hfR19PZjU4N25pQmR1c0VoWlJTbVNtdXpxT0poQUh6dGlPOUM1SUF6TWZQMnZsVkVhTkk5LTZhZ3RQazB2SzMz?oc=5",
       "fuente": "Vanguardia",
@@ -345,6 +506,13 @@
       "tema": "Gobierno"
     },
     {
+      "titulo": "Carlos Carrillo arremetió contra asesor Carlos Suárez y cuestionó su amistad con Abelardo de la Espriella: \"Piensa como un mafioso\"",
+      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMDd1cDFpSE5FQWVZcncxUm84a0Q5VUFvbGFfdEtIbGNFYzdLTDRoQzZVb3ctajh4WW5ub3RNcVRKdm1Eanc1VEJZOVo5QkZHblJpczNKS1dsSTZobFVJRFg5cE0zY0pPQkxTWU9jRXdMS1J6LWxtS2x1dGxkSDRXVC1WTkVOaXdMRFIyZjdaX1h2UW9RZzRwZWhlTnhuTlVnenZoQVdfVmhITUVxTWZoMzZmUXR4TkJ1TnhWT1dFSXZQNFRnZmJOd2h4aWZoclNxdEJuRVhSUkF2WmV3aThCRl9DMUh4MTJZeUwxNDNkMWp1Ul9UTjRub1JRVjg5RFBhMThn0gGeAkFVX3lxTFBpNmk4a0Jxby05X21SSnRzdTYwendrdkxxOU5sYjYteWl2VlhUTVhKNklmcC0wZ2xzYmVkM1pmbGRBbE9lZWp3aXZJNlBqeFZMUkhqS0lQdDdxRkZ4Y2Q2N1dVUFBRUWQwWGtUVl9DbHEyWDRtalNGQ1dDWXZwTG41am1md0RYNjBXSGlTOWFMQ3pqVTA1N05RLVluZ2FrcTFOcmpSc0RPOEpieElmcEc0c2dvSVRpcU5qWDE0XzBVMnlseVRGdUlRMVFkNi12em94ZHp2WFVFOU5jX1l1SU1JaVMyQkJRazFxcUF0bC01ellzNlA3RDl1bkdWaWdOYVR3T0g1R0RpUDJuemxXYjJaWGwxRUlzMmllbnVQNWc?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-24T16:31:00.000Z",
+      "tema": "Gobierno"
+    },
+    {
       "titulo": "El Gobierno de Abelardo de la Espriella destina COP 2,7 billones para prevenir un racionamiento eléctrico en Colombia.",
       "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdHJzM29mSVJBbFpoc1pTTC1sd0NaNHZBQS1YZ3VBUVlRczN0TnplVlVkaGRZT1o5YUtyWGZ2YjNDUndaUndjcklxUmlRN3FYOFA1ZkRnbFZmYnhHNkRvM29zQ0lLemtRWXpVQnRsdHRXMVpvUHB1X2U2X0VpT0dVVldBU2VxLURJZ2FUWTZmcUhKV2x6Ynh1UTlhcGxFT1laYlZKR0lUOUJnSVduNEZqNUw1blpWQnhPTDJzWXBoN2FHWHFoeUNiZFg0Z0RLejNUWW1BaUJYWVVseDBZN0QzcmQ3MWVZYUVkZ2JfNWsybS1reUVrWW5kYlZB?oc=5",
       "fuente": "Infobae",
@@ -371,13 +539,6 @@
       "fuente": "El Tiempo",
       "fecha": "2026-10-24T16:06:02.000Z",
       "tema": "Última hora"
-    },
-    {
-      "titulo": "Iván Cepeda cuestionó las afirmaciones del vicepresidente José Manuel Restrepo sobre la ‘bomba fiscal’ que dejó el gobierno Petro: “El cinismo es monumental”",
-      "enlace": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNLW5jXzRBTVNjN08wSU1BYTJxUTAyajlnZVl2Z1pGbE90bkIzYi0tWVk2alVmNFlQZmRzS1pub1lRUTZLOHVEb0E0QkgxclZZV1IzdGRLZG1ZUWFkOTRhRk8wV0JWWEtsRkdIWlJHc1Y0X2tUM1ZTVlRSSFdzNGJTalVsRnBKZnBocE5pVk56bnRHVUk5alpzb2Y3Si1ZNUtZdFlNNEhvampVTld3alFRZnRfREd3YTE5QnBlaEV6bVdnVzU4YkVYbnRlMlczNl9Za0dxeVFFU1FXUkZFYTgzODJ0bnJZWGk0OXQ4dEQtaFR0c0JCbXJVNHNFeVZ5VHpPZ29QeXZkbUtkX0JmdnpubkZTZVZidFdveVd2YmNYUDFGc3fSAb4CQVVfeXFMTm5KWkRJcEk2QVJFcjdsbjE1Q2VTTDVQeUVLeWo3c3JoM05ranpyY0M5WDg0WDdyNkQyTmVRa3ZnbkhyZ3p3VFRFbE9hV1d5ZjBEdGFlelRfd1k2MVcyS29JUjh6c2ZIQ2VqUFlaQXE1ajhwZU5NbFM4QXZNR3o5Yno4QnNmWFJidElIU1NEbmctWmQ4NUY5clNRcE5GcGQ1cXFGOWQxcXBOYXNEclYwRnc4ZWRmVDZyUkYxR1V4ZkxHcDdrNzAtRlI3YjVDRnhrM0VkYnh5Zl81MmJIa1pvaWtZRU9pelhVb2wtclh0VktsdUtrM1hUX0ItZHdNcHBQRjNjUlFUUnJqdWdCRmFiNG5ZOHNqM2U2bC1FX0l4NUhBbms5dm9hT09IdjlmWnk5TEVVUmlzbW1zbWFVb0VB?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T16:02:02.000Z",
-      "tema": "Petro"
     },
     {
       "titulo": "Los problemas del estadio El Campín más allá del fútbol y los conciertos",
@@ -408,10 +569,10 @@
       "tema": "Última hora"
     },
     {
-      "titulo": "Carlos Carrillo arremetió contra asesor Carlos Suárez y cuestionó su amistad con Abelardo de la Espriella: \"Piensa como un mafioso\"",
-      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMDd1cDFpSE5FQWVZcncxUm84a0Q5VUFvbGFfdEtIbGNFYzdLTDRoQzZVb3ctajh4WW5ub3RNcVRKdm1Eanc1VEJZOVo5QkZHblJpczNKS1dsSTZobFVJRFg5cE0zY0pPQkxTWU9jRXdMS1J6LWxtS2x1dGxkSDRXVC1WTkVOaXdMRFIyZjdaX1h2UW9RZzRwZWhlTnhuTlVnenZoQVdfVmhITUVxTWZoMzZmUXR4TkJ1TnhWT1dFSXZQNFRnZmJOd2h4aWZoclNxdEJuRVhSUkF2WmV3aThCRl9DMUh4MTJZeUwxNDNkMWp1Ul9UTjRub1JRVjg5RFBhMThn0gGeAkFVX3lxTFBpNmk4a0Jxby05X21SSnRzdTYwendrdkxxOU5sYjYteWl2VlhUTVhKNklmcC0wZ2xzYmVkM1pmbGRBbE9lZWp3aXZJNlBqeFZMUkhqS0lQdDdxRkZ4Y2Q2N1dVUFBRUWQwWGtUVl9DbHEyWDRtalNGQ1dDWXZwTG41am1md0RYNjBXSGlTOWFMQ3pqVTA1N05RLVluZ2FrcTFOcmpSc0RPOEpieElmcEc0c2dvSVRpcU5qWDE0XzBVMnlseVRGdUlRMVFkNi12em94ZHp2WFVFOU5jX1l1SU1JaVMyQkJRazFxcUF0bC01ellzNlA3RDl1bkdWaWdOYVR3T0g1R0RpUDJuemxXYjJaWGwxRUlzMmllbnVQNWc?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T15:37:13.000Z",
+      "titulo": "Qué papel tuvo el Gobierno en la compra de Presto por parte de Nutresa: ‘Actuamos de inmediato’",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdTJkNEFnR3ZSVVBZV3pjeVNwMU9PalR3Zk10Z1JPZng3R21hbDNBNFpMbUhvMmZFWnhDLWhCOXhvZkxCZF9KTE9kUHg1YXNDb3FESC03eDhmR1h0Ukl4QV9YcHk0aGxESnRudjdtUUZhOF8yWU5TTkItUXJtS0N3ZkRYa19MY0VfRHFsV3hfVjVwZmtfd1VWRFhhWjBPXzI4SklDVmEyLWVweE1CVVk1WGFvaW1lRy1kRUlSOEZ5b1kyWlBIOUlrSEZaUlNZVTY3WTI2Y0U1bk05bG1uUl95WjNUa9IB6AFBVV95cUxQdnVsbG9zTm9ERnRZZ0NKWEtheGN4RjlndFZoUHVRSkIyaWNpNVVabHRmVTFjN0JFYnZ6a0pfSFdvZmJtS253TlBDNzBzd0RfcHR5cmhiWWZwU1RvRW5wc3RGeUYwZTk5U0h0dFpSNHZYOVo0aEJRN1FvcVpuVWQ1d2JvenhmbGdnZUpKRmczdmU0ZFd5eDEtMmxyU1NzeFplc0Z1eElvNVllY0NUcVQzS2RVQ3pCemZaVGRJajVhS3FWZVM4Zk8zRDA2TUdscmNxeXJkODFGdG0xMUY5bXR6a3VsVFNHUDdP?oc=5",
+      "fuente": "Portafolio.co",
+      "fecha": "2026-10-24T15:36:37.000Z",
       "tema": "Gobierno"
     },
     {
@@ -420,6 +581,13 @@
       "fuente": "Portafolio.co",
       "fecha": "2026-10-24T15:36:37.000Z",
       "tema": "Gobierno"
+    },
+    {
+      "titulo": "Defensoría pide rectificación a senadores por ataques a magistrada de la JEP",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQzFsOWdJZGxrVkEzNXNkWjNWZkVsd3dpZnhNMDhzeG95bTlGcDh4TzNaNlFOS2VCYXdrZEttcVhPZWFXai1pOXRMY3RYanFsbTFZaDJGU3F1X0tEMTBNYTV5b1BVcUV0X1VuTEtrYzRMRzlEQkxYYW1BSG9ycHpabXhTd3J4N3RYcVNFejV1cUU4em9HMzR2VjZicU5lbEowS2c?oc=5",
+      "fuente": "La Silla Vacía",
+      "fecha": "2026-10-24T15:31:34.000Z",
+      "tema": "Última hora"
     },
     {
       "titulo": "Por señalamientos en contra de la hoja de vida del canciller Omar Bula, Jennifer Pedraza recordó que fue citado a debate de control político en el Congreso",
@@ -604,18 +772,18 @@
       "tema": "Regiones"
     },
     {
-      "titulo": "Lula da Silva y Flávio Bolsonaro se atacan en su último debate por economía, seguridad y corrupción",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaHNCd0xPdEpxUzNXWTBLcFFSNElGTHY4eGFKSkpSTE1KRDRQc3diSXR5S3FPTnBnbGtWX2szbE1YWnZWdEQ3emJfMFBCWUJkWTBfVi1hay0za1BtbmJQMFE4c183WW9OcVljV3haSkl3bTNwNFpDNHRnd0RaaF9kQU9sekRVaHBYTEcxQnV2U1hkdWpkRlRuUllBeV9McXgwdGhJTnV4dk95YVk?oc=5",
-      "fuente": "CNN en Español",
-      "fecha": "2026-10-24T13:17:00.000Z",
-      "tema": "Última hora"
-    },
-    {
       "titulo": "Fiscal federal de Estados Unidos reaccionó a la extradición de ‘Mocho Olmedo’, uno de los protegidos de la Paz total de Petro",
       "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWE9BbmR2VWdZcjdjZGpZR2pTUkxXOWNZLUpMenI3b3R5MTlnUjhjenp1SHBuVUxOQW94WFhzZFB1dnZiYVMzYlhyaWp3VVFPOWxCOHFNOVRSZDVJY0pwMjVyel96ckExOXgzNWxUamhpUUdYSmdyMlJRWXhaWGw3V285ZVQ0MDFGLUhvUGhEc2V0SE01ZUtkeFUxbnlzWFExTWhYenQ5UWlMalFsVERjUklnUktGTllISWRBQmU0MVowX3N1TGR6RlRkY3RkZmwySmhFamFycTFfVi1DSUhRZGFLRWw2TG81REs0UEFYQVF5eVRUbFhCX2E3c9IBlgJBVV95cUxNLWs2NlkxeHM5eUx6VkVzTV83bDJpRnZrWGFWNnlzUmcxNFZlcDV3ZGlVQ0xnaGFLQlFSZTViZlNSMGhvSjJwckYycGd1VktpMXE3WTdxVDFfMGYxVDBOaTVMWDJ3OEYyakVtUU0xWkpsVXRxY1VTVVRDUlEwaU9tY21pVDV4Y216a3BlTnYxUlpBVy1kSjF4VnphaWRrd20yYUhzSzJRQi1LMWVlTml4ejJUNFM5aG9tZlZ1enNTak5IM2hOMFhKaGNJX0swb2xIOVVvRWdvb3ZZYTNESTlZUlFjZkpXZm9ITWxZWVFvbE9SY0kxTzEtV0VyaHRIdmcxdnV3X1VxYXdLc2ZyMVZiNWlRVGFpZw?oc=5",
       "fuente": "Infobae",
       "fecha": "2026-10-24T13:17:00.000Z",
       "tema": "Petro"
+    },
+    {
+      "titulo": "Gobernador de Santander pide impulsar ley para acceder a recursos del Fonpet",
+      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmR3OXNhdFVJRkR4ZFlQYXhHLVh3V1lqWnlvSDdjRkNOelV1bUtPNlZWMy02c3dIbzNoSGlUR1IzVFJESTdiM3dkUjVNOGtWMjczelN3OXprVFNfODA4VjlJdm90bFpjU3h1c1Zxalhrb2VLcTlRclNFVEVtOVptc2tERWxubnk1R05wRjdCWHM0YlpHcjlqQ0FEdGdyanoyNE5IS0E5S25xd2duZGJKWNIBxAFBVV95cUxOOEczODBQS0lwV1FEUjJxRTFpUms2R3JUSFFLYXNvcV8xMnkxVXhxMHpvLXp2ek5aYVZ3RG5LT2hJa05jZG1XNmtXVWE1TExQWWhLUE9IVWNKUmV1Z01rc3VYSWlMMVJkamVhSEJQcW5VdG5ndnNuODdnU1VOQzl1a3FnUk4zdmdaT20yX09IZEJheEprODVNc0lVdTFSV3kxWk9OQWdOMzZxTlBzZEkxc1VZRFpGMy1PVS1WTUlZT3N4THN3?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-10-24T13:11:45.000Z",
+      "tema": "Regiones"
     },
     {
       "titulo": "Vicepresidente José Manuel Restrepo reacciona a la portada de SEMANA: “Encontramos un Estado que malgastaba el dinero”",
@@ -688,6 +856,13 @@
       "tema": "Petro"
     },
     {
+      "titulo": "El ‘efecto Tesla’ sacude Colombia: estos son los vehículos eléctricos que han bajado sus precios",
+      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeTBUNDRQYjFoSWlJOUhzcnZDR2JoNnVJdzFub001bzVsWk9VRFM2ZTViSVYxNTN4eWo1X2dvUmVyT0hXUDNGeEY4Vll0RkJaZDFmUGVtYTNqX0hxZ283aldkeEN0eEVaU3BwcU1Ua0lyLWtITmtBaDk5MTlNcGZiTW9hbWNfcmF3enJoTDVQdzlUc3VRaHhNTFFiZGpJdHNnR3EwT092ZGpYNndocWQteDNFdlFKYmFGdlQzTk8yRmp0bGl5WmF2b0JQRUo3VDBXa2kzeXg0ZXFXNEE?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T12:04:23.000Z",
+      "tema": "Última hora"
+    },
+    {
       "titulo": "Gustavo Petro reaviva enfrentamiento con Alejandro Ordóñez tras su designación como ministro del Interior en Colombia",
       "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMkhlaHhfN1QtYTdDMlU2Y2FMMExwNmNuZzBtdkRkMTVsZ2drZ09JdE5ESkVwQURhSWp2RHZoVjNGRUotdzlmc3FLN0h0QWU2RmVqOFdWb1k5U2d1WWJFMTZOaU9XUXZjTWdUb0VOODdudW5sR2prVGN1M2tRZ1J4UkhwRFB5N3Y5MHVjNWF1QkNlcTdlY3BwSk1GWUpYSHpISm1JWFY3cC1UU28zbVF6dUIxMDJjeTAxR2N1YWNxQUJfaDgxM2dnWHFIY2RXRWpGWS01V2xsQTjSAd4BQVVfeXFMT25pMkhTdDdPMGJHMWx6UkRPQlM2NXlmbW50dFpSR0NzNkdZZ3ZFT2pEckNsUkxCb0xpcE5pV0VqaW1IcG5vNVd2ZWNlZjFqMl9vOGRnVFVyMHBLRFJGWENzcEFxeURIWlBobElhTlJLZWo1Q0JWSXRJU1U5SGdOaC14dmtlZm1XVVVBT1ZKUkJuUkdzQ3k1ZUpMWGRYSEYySjdxanp3ZndJNnE3QWdKUDBuZ2ltdEZWbm9XU25hbFlTYWNmUV9uaUVEMFg4Z3ZFWl9PVkFlYW5fTENIb2tR?oc=5",
       "fuente": "Pulzo",
@@ -714,6 +889,13 @@
       "fuente": "Pulzo",
       "fecha": "2026-10-24T11:46:22.000Z",
       "tema": "Gobierno"
+    },
+    {
+      "titulo": "Colombia.- De la Espriella asciende a un general imputado por la Fiscalía por la captura de un civil",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmdTNXYzVnA1VDRrNVc1Zk1XSjR5V20xRDZZSTI5d3lrem1vVnljT2tJd1lNQkI5eG15czNubFl6MEZ4UkR5UXA1WlNrSmNHa3V0NnBaYlVja2dCNTItcHI3N2FVbFZuS0RVYm9abFB2S29COHVyZFphdUlpanFZeXR4b3NaYlVvQWxjM0NuX0cwcVRzZHJQY2Q1RDFkRGQ2ZXVmWkJPZEF3ZW9pNElPNENGM2s2Nm1YRUQ5WnRjUDBxbUxqSDBMY0pfSQ?oc=5",
+      "fuente": "Notimérica",
+      "fecha": "2026-10-24T11:04:21.000Z",
+      "tema": "Justicia"
     },
     {
       "titulo": "Cuatro coroneles que salieron durante el Gobierno Petro volverían al Ejército y fueron incluidos para ascender a general",
@@ -786,15 +968,15 @@
       "tema": "Última hora"
     },
     {
-      "titulo": "Enrique Vargas Lleras espera que Petro sea extraditado a Estados Unidos porque “tuvimos a un delincuente en la Casa de Nariño”",
-      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ2kybzhuN3hhVEJkYXdFdmgtM3oydVA5NG9yOC0zN3h3SldjY01BRFdZdTB5YTNKdmVOR0YtNmQ2YUpQOWZRLXRXSkxVU0RERmxOclBIYzdMcVVRckd1eWx1bk1qOERWN2hRSkxhRUxKNlc3UVpaWXFZOXFmWnNFdzlRTm9yYUVuYTR2bVdpNTJBbURxV0pyY0tmRGd4YzdmWEM4WDJoWDdRS2dqMmhmcEM2VXhTcGJtS053TDlGZDZ3UmpOYkIzWnI0NDZqU2FnWHFtT1dwd21hdFhjaXY0N182dkhjUUhlbmRTZlJLM2hsV1RHQ3NHMWJkOWVTTnNPNFRv0gGIAkFVX3lxTE40MVlDVUNycW9BXzI4Mmx2WW5QYXYxSmN2WW9zTG11OTNHNGpKVzlXRFBNOWdNRThENVk0a210Si1FaHBya2VDYTBBWmlmNUpCa092X29uYTRMRmNnRHhwYkJ0NXBQaElmNzlHOThodF9tQmQxQWlNQ1N0X2p4TGZCS0lEcEpBOFBrdVFaSVdPUVU3c0FKRnVFRllRTW9sWWtWRER4cXBYNFdtOXpmbmt1TWctYmFuWkVGZk1wLTdkNi1wTmZuaTdEblU4bUN6TmlVeXZfRURZMmZvbUloSDdpRWJHZjZTTDRvY1RvZXptYU41YlhENXFfUGUybnFyNXhBejBYaElMQg?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T07:41:05.000Z",
-      "tema": "Gobierno"
-    },
-    {
       "titulo": "Semana clave para Gustavo Petro, expresidentes, fiscales y magistrados: Comisión de Acusación designará ponentes a 2.400 investigaciones",
       "enlace": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQcVpWbzI2SU5NdzVqc3VRSzYxRW5mUTlzcDBtbkNLaEFKNGFJOHc2WmpuQmluTDBuS3lLUk9vdWxxSVUxMm1lVVJUbXhMTWFrbkVySmR3VUllYlpiQ3FHOC1GLTdCZ3h1MnFwQld5TzFkUUdJQnpqeDhnSW9FMjVobTFxM0tHTHVxcDRrVEVRTlVfTTF5djVTVTBReUxEdWpGSTB3dWVvelRodm44OUpxd3lFSksyOTM5UzNFUVpCQlJMUTZtdzkwNjFGUlZVOUxXa0NxUm1CTFUtd0F3QWlQbV84c2ZkSmdmM3RPNjkzVWctdUZUMDM1UXliQWRnRmZ2TjFKelFidTJnbXpGSHfSAZMCQVVfeXFMT01KejNKakx1NV9XejYzZTkyeGUwcW1MaHNZRnBrREJEVzNONjRqSWhfOXpKTE5JUEs1T3RfVldLb3doblctZmhDWVVJOEh2QnVrRl94cjVHei1ZTDJfYnRES0x6dUx2YlJxUVR2MzBCV0JtcnAzNDExaFRsM1NtOFFyZmZvQTNvTTFFaU5Xd0tzbVVIc3VtbkV5MTlueVY0cE8zUkVSNzI1U0tEU0pBbEs5WEdkQ01LMnNOaU1IVXVoRGZYNFpLaWFTTWZZZy1BNDVwYm9IOUs4MGtUd0VENU03b1djenlBX05admpnTjBxRjhUMGpSODR4aG04MmdTbmlpR1o4YTRHVTF4bWRXcVhTQU0?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-24T07:41:05.000Z",
+      "tema": "Petro"
+    },
+    {
+      "titulo": "Enrique Vargas Lleras espera que Petro sea extraditado a Estados Unidos porque “tuvimos a un delincuente en la Casa de Nariño”",
+      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ2kybzhuN3hhVEJkYXdFdmgtM3oydVA5NG9yOC0zN3h3SldjY01BRFdZdTB5YTNKdmVOR0YtNmQ2YUpQOWZRLXRXSkxVU0RERmxOclBIYzdMcVVRckd1eWx1bk1qOERWN2hRSkxhRUxKNlc3UVpaWXFZOXFmWnNFdzlRTm9yYUVuYTR2bVdpNTJBbURxV0pyY0tmRGd4YzdmWEM4WDJoWDdRS2dqMmhmcEM2VXhTcGJtS053TDlGZDZ3UmpOYkIzWnI0NDZqU2FnWHFtT1dwd21hdFhjaXY0N182dkhjUUhlbmRTZlJLM2hsV1RHQ3NHMWJkOWVTTnNPNFRv0gGIAkFVX3lxTE40MVlDVUNycW9BXzI4Mmx2WW5QYXYxSmN2WW9zTG11OTNHNGpKVzlXRFBNOWdNRThENVk0a210Si1FaHBya2VDYTBBWmlmNUpCa092X29uYTRMRmNnRHhwYkJ0NXBQaElmNzlHOThodF9tQmQxQWlNQ1N0X2p4TGZCS0lEcEpBOFBrdVFaSVdPUVU3c0FKRnVFRllRTW9sWWtWRER4cXBYNFdtOXpmbmt1TWctYmFuWkVGZk1wLTdkNi1wTmZuaTdEblU4bUN6TmlVeXZfRURZMmZvbUloSDdpRWJHZjZTTDRvY1RvZXptYU41YlhENXFfUGUybnFyNXhBejBYaElMQg?oc=5",
       "fuente": "Revista Semana",
       "fecha": "2026-10-24T07:41:05.000Z",
       "tema": "Petro"
@@ -938,188 +1120,6 @@
       "fuente": "Pulzo",
       "fecha": "2026-10-24T04:05:45.000Z",
       "tema": "Justicia"
-    },
-    {
-      "titulo": "Temblor hoy en Colombia | Reportan sismo de magnitud 3,9 durante la noche de este viernes 23 de octubre: se sintió en Cali, Medellín y otras ciudades",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPRkw0R1VJMFNqS2hLWTBGb2ZiTVNaWnk2Q0p2eUdVRTNVWDR5bW1qU21FVHplWVFsMmM1cjRhbVZPam9mV1o2N1BtUzF6TTdXeDFnMVNjRXRDVzBINE5tX0pOSDZCLXJseFQ4TTlra1Q4MU8zbzk5X2xXTi1qX0d0S3FSTUdueVdkSzB2b0ZkU2xRbm1va0ZkUmNMUDhHUG9EZUwtM01rYXBlTlJVZ3h5UXdPMUlBZXIxaXBWWEI5bmRYVFY4UVpkcElkbV8yM3lDM1ZUa2NSV2RBYWVROUlPWWZlX3ZkYVY1MlhOejk1QlJPZEZQYUNrUlRISWtjQWtfTE5mQUt2NTZ6OFp6ZDBSVVVPazczM1F3alBub29lcDBmUU9ld1JjOU5R?oc=5",
-      "fuente": "El Tiempo",
-      "fecha": "2026-10-24T04:01:27.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Abu Dabi, Grau y Juliana Guerrero: lo que indagan el FBI y ‘el quita visas’ para ejecutar una cuarta fase de sanciones en el entorno de Gustavo Petro",
-      "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOOFM2YlFwY1FTaDc4VHhGc2o4WlR3WDNJM1pSNV9MREFPZzBKakt3YnFodk9PNzZWZXNORlJ2dFVfT0xoaGZCUmNnZC1ob1VHZ04yYnk2TVBsR1hIZ0dNQW42WFVoYUpvVDhSaVl0amJ4NW91VTNnMGNaLUpwbVFld0FoS2NQZ2xnaDlwakVGTDBsVjdoaVRzRGp5NGZIRkxLWVNQT1l4Y2lGODVEOU1UTTdCR2gtSHNNQjlmb3VqSG90WnhJQjZWZDdzVlI2ZFhoaGhoTFhBMTZkVkRtVW1jdUMtMEs3QlNtaXN2Tm42Z2FGZmdIRDFoRkNiVDdpTHZRY3ZrUDZDZFBfdmVaSVlBZEVGYmltOFN0LXZZSDFKaEZLRVJrU1E?oc=5",
-      "fuente": "El Tiempo",
-      "fecha": "2026-10-24T04:01:00.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "¿Fuiste el ganador? Todo sobre el sorteo del Super Astro Luna de hoy viernes 23 de octubre de 2026",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWldWOW14WV90b1F6c1Myc1lPQUdTQ0paVF8xSkF3X2dzeHhjOGpOeG4wRGNKTFh1ZDZUb016b1F6X2FubGZNSGlzWVZkaWcyV212bmtNRkxXMDh4TE9lUHRvSlZSd0poWjJ3bTFaTTNGdDdzT2N4OTc0amxDd2M5a0ctYW9aMkpnN0RyR2xyeHdhbUxsSTROamxRa0RQenhRcndV?oc=5",
-      "fuente": "Colombia.com",
-      "fecha": "2026-10-24T03:54:09.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "General Federico Mejía: polémica por ascenso en Colombia pese a investigación de la Fiscalía",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmFKLTJTbkF3ekRneVBZa053VzVIWHhKS21lY1pmQl8xYXpRaVFLeFlvYnlnWjlaN2c3OEpEM2EyZHM3ZHpyczdkbFhXMFpTRi1hejhXck5NQ1ZKQi03LUJBeDM5cHhWTndYVm1nQ0Vob2lsU21qQUh0cUszc1JqOUtfNDdmZGxKaHpqQmlxUDRJMUZWLUYzWmY0c0hjS2JTd3QtNWJrTFR2RjU5S2J3WllVOFFlOUNwc3h0SVhCdmpPcWQ2aDJ3SUZqYw?oc=5",
-      "fuente": "Pulzo",
-      "fecha": "2026-10-24T03:50:47.000Z",
-      "tema": "Justicia"
-    },
-    {
-      "titulo": "Ascenso del general Federico Mejía genera controversia por investigación de la Fiscalía en caso de liberación en Cauca",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmFKLTJTbkF3ekRneVBZa053VzVIWHhKS21lY1pmQl8xYXpRaVFLeFlvYnlnWjlaN2c3OEpEM2EyZHM3ZHpyczdkbFhXMFpTRi1hejhXck5NQ1ZKQi03LUJBeDM5cHhWTndYVm1nQ0Vob2lsU21qQUh0cUszc1JqOUtfNDdmZGxKaHpqQmlxUDRJMUZWLUYzWmY0c0hjS2JTd3QtNWJrTFR2RjU5S2J3WllVOFFlOUNwc3h0SVhCdmpPcWQ2aDJ3SUZqY9IB0AFBVV95cUxOLUQ3SDlLRUFON1oweEx4UEk3SlJiV0VlNlVIZGItLXZBTFd0bzRqMU5ENm5zTnVkNmJId2lFQ044VUNIOEpmNWZNNnltNUpXV1pWYjU1c0V1NzVQVW1nLXJScElKUnZqOUZMV3lHQUFNX3ZVTEtNRWdnTXM0bUlSZWRfYlMxTzN0bDBVZlZfWmIwTTJ4dG5DTi13Yi14dTVVZkhMOXduNVM1cU5yeEkwUHdZRGNoTDZhTFZrSW9ZWllGRzhSc1lrUmVoRUFlR2Nf?oc=5",
-      "fuente": "Pulzo",
-      "fecha": "2026-10-24T03:50:47.000Z",
-      "tema": "Justicia"
-    },
-    {
-      "titulo": "FOX transmitió el Juego 1 de Rays vs. Brewers por la Serie Mundial (23/10/2026)",
-      "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNakpSbVlyam1JZ1JRaU5yYW1ZdEhaSDZpUUJjZUdVWmhBVE5XWU9zUmtXRmE4RGRxb21UXzh2MTQtT3RDQjVNeDVOQXJXSHpvYW44bEJXMm5WZ2RzUEVfMnFsaG01WVFRM0hUcGxBUXJFeEkxM3VuVnBKTlBCUWdkMk5ySkx5dXJQVWRBYVg0OG5PeVFSMV9uVVlaZFZqMWFkbG40NzhBSk9Fbnp0bHpZUUU3eENma3B5cWlNVXo1eTRtWHJ3QldGanoyYjNKNjdaLXU4REV4VFRVTkxOcHpLbXpGd20xeGVsa3ZqOTJ0d3NzTW16QWNvOTN0TzZtYkIz?oc=5",
-      "fuente": "El Comercio Perú",
-      "fecha": "2026-10-24T03:35:00.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Day Vásquez denuncia que agredieron a su hijo menor de edad: “lo golpearon”",
-      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRXpkTmx2cGRuU0FBWHZQTVlNVEEtak5iMnotMEd6Q1l3c2k4R1BLMGFwQ1BzMk9PUnlFVm9Zb1RlcFZ4dnJOMUNLRVd1Y0lfSEQwdkh2YlNINDMwUmc0bnpKRjY2QU1YQVNiSWxqa0MzeE8zZUV2djd4d2pjZTFzeEU1LXR3WVExc2tiYm5sWGlUUTdpRHFvdk5TV3UxdUN0ZnRiYVBPcEhIbWgtY3hiVTlwNjV2OEx5clpN?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T03:33:02.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "\"Gobierno Petro llevó a que finanzas del país sean una bomba de tiempo\": vicepresidente Restrepo",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTktBRFBVM1NtWnc2ZFI4TU1iWFNuc1VwMHdKS1ZBalExTm94RW0ySHlVdXUxSmRlX1h2VXJaUWRibUFrZVRXZWtramgyQ3lhOU0tQlBSRGluTm16d21VamRfZjlLRy10ZmVqOUtSRThzLUVPazBkZnl1NmE2NDVPUEdmVDd4YWt6cl9jUkx4MElUakc0N2hhWHhlY1A0cndSbVMwVW5nbjlZam5kdllDTTM4Y09vaFJXbzBMMnREWlZJR3A0QnEzR0xR0gHXAUFVX3lxTFA0cHJGUFBmYWhFTHVLb2lLX1JPVXVDeE5ScUZvVDJRSGNwSEMzc3kzbHltX1Q1alpaTUVQc0JHVmpkQlVkUmZEQ2JqS1pSTTc2SVhNUWRLQldGaTlhVlJyMVpzSFNXTHlTZjVnYnBFNmdtTXlhc0ZKVkxkVlhJTFlIZlhPd3NDZFVXOXlId0N5Zm9keXFtc010Q0VjZnJHZ1NEWS1ZV1EyOHdwemFlUlQ4dzJfazRXbkw0RTc5N0xTR3h3MzMxSFN5TFZVS2ZDSXJNdkx2RVRz?oc=5",
-      "fuente": "Blu Radio",
-      "fecha": "2026-10-24T03:20:33.000Z",
-      "tema": "Petro"
-    },
-    {
-      "titulo": "Abelardo de la Espriella entregó detalles del dinero que se manejará en el fondo para la reconstrucción por el terremoto",
-      "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObnJWOEhDektiRmJ2RklrZExKUnFyX2tmRkZSeE5PTHFBZU1iWkJwNWdiLUx3cWNZNXh1TE5aNkw1dzk0YTZfajA2Wkdpc2JYQkg4N2M2amNyWDNzamgwTUthbnB4SXl2M3FDWm51alhSbXd1ZHkwLVBMdmFPTk5UZjJmTFNCWjBLODhkd0VkTVE1Z3dZUVJPR3JjNjE5bWZRRFh5WU9tcDFhX2d2andXWnExam9rYWdTUElrRkpZcnRzc1psRWxOWENNTjlyNlpFcFZDRWNKUkpaZkp1X1cyNWRfUlZfbGk2dkRPX3Q1N29ya0tSQk9qRdIBkwJBVV95cUxNeHhfNkpSVFN2a25kT0FkaFNmOFYxcmhuajJqdU8yS2FmSTJ2aUVFZDhhcDhBVGU1d203TDdPWUg4YTVzSklwWXBVRjVXTTBKV2IwcXNoYVlycWQzQUhiVGd4c0o3X2thTmNmX2xneUU4R2hWWDRaemlkYWd3NjhsNzF3aHREU2V4V0E5RXVBSVZyQndTcTUzNV91akxaeVlOTjU0WW5FN3pUUVFPeTZHX2dxUU5tTVVUa2puSm1heGtZX1NDU2V5V1FBMGdHaXlfdTBfR2NkRTF4M01odlRRbmhiWXk4cG5za1VBUmREMDVQSDZzT0YwRFFiQkJkc29CX3JlNS1OMkhDN2k5NmJPd09kWQ?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T03:19:00.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "Santa Fe desafía a Palmeiras, por un cupo a la semifinal de la Copa Libertadores femenina: hora y TV",
-      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWlhuZUo2SV9WdFcwbVRXdVJkaDQyeE1wcC0yQ29CWkZhZlpQbXU5ZmhnZFV4bDJxS29pZlJnNGFJb3FQZV9lSnVTZ1AtM2xBRW5la2ItQUFVaG9hQjFtRjBPdnBHZ2tnZm45U1F3REtHUmM4VTU1MTRMUmxSbFc4OEFTRGx5QmtHRmlXdE4wc09vTVJFOUxuVWVBOGhhYWhoRlRXNTJtcU5JNU5GbjNUVTF4dWNmV0E0T01kelc5OU1tX0pDUVJpWWp3TURRMG5zeUE3ZWRNQnFfNDRPT3Z3aXN6aFNtazJoNFN2aWllYTVMTjg?oc=5",
-      "fuente": "El Tiempo",
-      "fecha": "2026-10-24T03:16:24.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Junior de Barranquilla - Águilas Doradas, en vivo: Liga BetPlay, en directo",
-      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX082YUFGV2dfX0kxblJDcUF2cW5CeG92VnFQSEUzNllXWm5aNDRpVFNWSklHQlM0a0FUYTdza3hROFliVkEzNkZDajY1RDJES2M1RDM3d1ZmaVNoNGp4ZzRjVElIRVRZMjlZX3pNam15UHhuWjg3Wm8yZHJiT3VGbHZjYVh4Y1ZvZC01ZjdTMkNsaC1zM0kxREJpNEZBbUs4Vnd3clpwdG9pMGotbEJlSjdn0gHGAUFVX3lxTE82eEJ6YmZQUU5ZaUpURGF3QnRpVFRQaEZobzlJVXl3UV9ic3V3S3VoMVJVY2liRnlCRV9ZSGdDUjZDVjZEa3Y5MVBlckF1aGRuOEoxa3d0MVItSjducU5MWDRTeHJKa3VYWENvenpEQWpoME9qbXo0d0x0WHdNV2g2XzhwTXU0UG1rSHlUWEdFWkxmM3FLUGt4azUtTFJ4MjJiekpRYXNTdDJQYVNIajBJSE42dlFvM1UxMzlGVzV0MnFvamNndw?oc=5",
-      "fuente": "AS Colombia",
-      "fecha": "2026-10-24T03:06:12.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Carlos Suárez reveló los secretos de Abelardo para llegar al poder",
-      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNk9YRUxyMFpVZUJpanR6OGlYTkROLTVzTDEySHBNRVpJRk9CX1FHZmZEZGl3WE14MjZEY1h4M05Xd1d6dW5rSjd6ZTE5dVBDWEtvQmJlNFozRUZEOV81VmMtNVFhY0NyYzhQZThXbTYxZEtxSkVxZW90UE1XRjZiYmQ1S2F3N1dqSm0yVEIxYUxEUTZlSk1XWkwwM1ZRQ0w5Ylk1RFlCMUw5ekJNWEEtcktB?oc=5",
-      "fuente": "El Nuevo Dia (Colombia)",
-      "fecha": "2026-10-24T02:55:20.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "Lotería de Santander del viernes 23 de octubre de 2026: resultado, número ganador y premios del sorteo",
-      "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQ2VmakNDYUt6UE9UMFlqNHdPbzN5WFpJaWx3b2h6bVA5ZTdNSEd5azZoVUxRTXpJUF9qSFF1eDFqWl9KMjNIOUg4WGpxX2YxQmo2eFhPcHhJdzZUU3NXb3cteXNWVmlmaGNGeVhwYThkd1dnZzFJOThEc2gxQ2RHTkw3UzBSNndPSGNOUms0aGNrTFpGSlRkalRKWkJLbkRqSF95S1E3ckZnSGJJMHNwWlFTMUNYNlVLbWtjTFk5bnhPVXh2T2YtVGY5TzRndzNORGY2ZW9XeFpPd0xmcm5LUTU0MlVpUWkyWkJUeTRDeGlGdFdX?oc=5",
-      "fuente": "El Tiempo",
-      "fecha": "2026-10-24T02:51:01.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Presidencia del Congreso alerta sobre posible suplantación de identidad del presidente del Senado",
-      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVUV2bHQ4X2djM3I2c1dMNTNCWlpLR011YWRzMHRVZXNwdm1RR0JKUkhKc0JSbjdJNjVvbkpfaEl5azB4VHVkSnhnOThFZTBneUhvRUhncDRyOThWMHZhTUFYVGFYZzBjT0x6NEJ5cXlaZkNFa003WXN4NGY5SjYzUkhjRVVEeWM2YnNCV1MtUmo3dnYyaTA2RENvazkwc0NscERZTnUtcFdwMWdRS0poRTQyM0xObW5YcEFsdnNRY3RMNjJUSFU4Nm1UWEx2U0U2NExpVFN4dnE4Z9IB2gFBVV95cUxPRkxjd0lwQ2VxdkFrRlFIdG1yZkJydjlneHljb2I5U041UjBvUGlDQUhoWGNjSjRMQzZPcEx4RW0tamowdm1sZWJWdDVrSEZub3lscTh6N0F3Mzd0NU4tcUdBVG1qSjJ4VHN4T2diUnZXaXZ1OERrSjVNaUZLR1VJSUZxYWNVcDJHU2RqR00zT2lfeWx4eW1Fb3pSVkNsZDNvbEpmU0E3dFBpRU02LURjbzUwbk1DTEVUVXZYQzZJamswVTFqMFVjbldlM2RVem13RndabktQLVl0Zw?oc=5",
-      "fuente": "Noticias RCN",
-      "fecha": "2026-10-24T02:42:59.000Z",
-      "tema": "Congreso"
-    },
-    {
-      "titulo": "Fiscalía pidió cárcel para Juan Álvarez por presunto acto sexual violento contra adolescente",
-      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSzVkTFR1RndZaVUtSXhPR203YkJobUZsMUN4Zm9hQVdacXRyZkpieFplTnVjVlNWTUdkeG14b3ZDTDBfMDU4a2tuZUpJaVZ2OXNWcklMenNwVDQ3MmRNUGJoQkZXRUVXZjBHYTVuVFdlR1BmLUhCbURXNE5nLVRBOVZCLXpnT1gta2w1OExlQWxYRzF6MGl5VHdUVVRGNjB0X2RzZjRob0d6ZmJHcThIam1R?oc=5",
-      "fuente": "Zona Cero",
-      "fecha": "2026-10-24T02:34:00.000Z",
-      "tema": "Justicia"
-    },
-    {
-      "titulo": "Polémica por un alcalde que fue visto en las calles portando un arma",
-      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaHp1Mjh2Q29xN0hhTWRwUlhPTENwS2hKMndFTzV5NEw2V1Y4b2dST05YcFpsM21yMVl0V2djZF9oSExOdjd0dzRTcFk2WkZ4MFRnbVhNbGtYWjNoRUdxX1luWEI1dHFTZ0lJOGJLRU5DUmI1WExJVkFxNVZLaExjYlZ3ZkkxZXBDOW5PblNSVmhFM2RVR2lRUUpPQ1ZHUzM3azAwUnF1UQ?oc=5",
-      "fuente": "Diario del Sur",
-      "fecha": "2026-10-24T02:26:14.000Z",
-      "tema": "Regiones"
-    },
-    {
-      "titulo": "La ANT revela millonario ahorro tras la salida de 1.040 contratistas de la administración Petro",
-      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYmk0eUR2MXR6SDJzN05YY0RMZ1RMTzRTakxaV3duQS1rWGZnanlxMG9HRDd5dmFwZTB6RmZfcWRRN2FRdWJRMDI4ME5FQUw4aVZEb2R0R0hrWFVqV194SUFna1NuQmdyUmdrOGNiMTRnb18yLWh1eXZCMHpWVE1DdGtSMkF2a183Smd2QW1NR0Y1VUxtQkhwanZobXpad2ZHaGthZVBQYVZLNnJBdHhjM0FFWUwyaXVIc0tONUZ6el9WcWc3Nm9Nb3VOaWMtT1RPbnhqcWFRWmlqWkXSAeABQVVfeXFMTzNYWmZxVk5UcWkxT3k4WDRIMk1rbjNtY0RBeXhyM29CUUFKSlZNYWdaRWcyU2N5UHZrWUh4RUwwakFIY19XWXhPaUhGc3hMeTBPSUVfaFA1bjRzaVRxcGJLRXpibGJNYXJ5UGRtZFFCX1JmWnJHRlJubWNNSWl5b2FXenVIaVhnMEtZSWlUcFdCRXBlTW5SaHl6VVJpWTB3RWtUUlh6RW05Q2EwNnpzLXBGekp1aFJIdXNpRXZHVnY0Rkl5QV84VkVZdlM0d3g4Wm5SNlcxSktmZGJCOUFWTHM?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T02:22:14.000Z",
-      "tema": "Petro"
-    },
-    {
-      "titulo": "En vivo ‘Yo Me Llamo’: los minis continúan recibiendo consejos de sus padrinos. Mientras Laura y Melina buscan pareja de baile",
-      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2NMU3dfdzFJbk9WdVlvcnB5cEduc085RkFTd0kxV1BOTUhLV2F0SGdzeG16endKbDF0bzgtV2xsdXFhOTVZOVJjVWQyWmZyaXB2ekZXM0h6MzVRaHJJNGx3U0V4MmRYSndOUE0tMHJkOHVQQ2RPcURkN0d3WXFpaWJ6c1RGQ0tCOTZoZW9USTBBajBaT2lNOE9OMWnSAaoBQVVfeXFMT3R3LUFERFdIdXNjaGYzN0lpeGRodGZUM0dFbWR3UnRJZFY2dU1CdnJXZ3I4SGgwSUxvWkE1bEtsSVM3U2ZjR3RHcTVMWlNLV3BldFlCVFN0S1hwa3ZUdG1tR2ZWTEl1elhpVTBiNVpZRWl1S2JybzFXdDFzQURVbmMtbnVFTklFaGQ2MkQxXzlIaFNMa0hPSkd3MVNBM1JSU2RnVzdlWHQyaEE?oc=5",
-      "fuente": "Caracol TV",
-      "fecha": "2026-10-24T02:21:51.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Este sábado Floridablanca lanza sus Ferias y Fiestas Dulces",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaGJhdE1BVFJqTFZaNjBzS3IxRERERGwzem1XWmNFN2FwaXhjZXc1VGFSZG1tSmxjZl9lNjFsNUNRa1dpRjBfendLamxTbmtPMTZhRXlxcy1tVTlMcmlUbm9FMkNwcV94NnJBQmdnYWVNWDUxdG5nb3lyV2xZdGtLZUpUMzNTRko5akg0bVlFVWxhdHlEVFFVV1hBV2RjcEIyRHhPdV94REw4bFNGZVFvMzVPT0RZS004OWFDRXo0WnNzbEE0ZTJTeXBjYw?oc=5",
-      "fuente": "Vanguardia",
-      "fecha": "2026-10-24T02:12:00.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "María José Pizarro denunció que Abelardo de la Espriella habría ordenado destruir cualquier archivo audiovisual de Carlos Pizarro y el M-19 en Rtvc",
-      "enlace": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQa2RZZFFVQ1NKMHdXRU1ZenVyNGFxbmZqYzlVcnpMNU55Y3M1b1hHSVc1a1p6S3Z0VXVKdnRvMXJmcVQ1RXVfYm1UUEZHMHNUcWVscFNoWFg4UzJ4d1VaNWhFSU5JMjNkX01XZk1BZi1YQUI2ZTdDQTVCaW0zaUhKTFdKZndUSjQyMXdkaTdGaGI4R1puQmNLRENLSGV2aUw3b1JjSlRpTXJyVG9WQ2RBMzFRejc3VGdXNU94Q0VDRmpJTEpFM1FXWEwwXzVNdGdtVG5HT2NSdHJWdGZxTlBycDhoT0VjZHBIQ09yVXRwQ0F3QWhwNThjcDZjZUZwSnJueS1CS3ZUNGZiRlNIMl9DQ1R3Qi1zcEk3SGlHUdIBtwJBVV95cUxPdURuR3dRZGN1b2xpdlZYOWE0U2p4S2pQYnR2SkhGRk82WEhUSTQzMm9RWUMzSXVMa252SnZ3TWZYNlBSc0RFUVgwWmE1NHEyaFc2S2VnNFJzUXN5c3plYlBoV3ZSRWxtdjRfczlZN1VySVYwOGVIcEY2Q3FKRVRpNjUzQk8wZ2RlTDdhQ2pOWnF4amNhX281UjlWRWt1c3Y4U3ZjX05qdkpZcWNRc1VlaXppYnVBNmdrWHJKRmZVeVQ1VlZfX0d1NVR4aEUtUEp5b1p3Z21YemN4LXlwZzhiQ1lGVVFEM0E5RE4tSmRPcUZWZlB4MWVnR2NYT2REOUhIQ0dJUHhhYjlpQzg1Ni14MTg4emRJQ3AxRm9xTThGQ2NVUC1Ma0hMeC1vTnRtWjJLU2tJaU9aTQ?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-24T02:09:00.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "Presidente Abelardo De La Espriella aclara qué pasa con las donaciones de los empresarios de Colombia",
-      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSUo5dlhGbW5aVHFPeXFvYjRfV1N0bW5tMktYc3VPNmdYRGc3dk5LT2lkSkJQdmR3dk04NFBTbFBxMG5MQ0plQ256aUdvZlhUcF9ZQXdXdWF2YXhkQVpHNEVEeXNqcVpBNGd1OWg2ekNTWTVBZ1JLQmpELVBGTk01NVBJem5raWpzQmRRRHZqSTRTYThTdGhZb1VTNk5ZRlpQZjdSMFRGZU1RLUVLZ0lnSlFxMW5ybW1SLU1XLTc3U3pPcFQ5dmZGVHFiSG1OTFI0bmFpTXQwdHhQYUxvY09sRm12eFfSAeoBQVVfeXFMUGtjSkRnQkxyWVl6S28xX3U0RFlDMjh5c1dLZWdNV0VmZTIzRXhfelZsS0VjSzVEWEhFUjZNeDNKdlJnZmMtNk40NXZ4QjVDcy1YRXl4NWxSNGxlUkl1SF92bzhQQkptbUdQOVJZcVE2amNsOWNmZXZqZzl3cGNKOGtMQVFhd0VtR3hwejFMMk5NcjUxWmdINmJaMnZnWnFSLUl6aVhUWmZ4YWIzdl83QXhpY0xqWHJkZ2lyb0tES01IQThFVlo2MGRENDdzbkd0VUVSWkVoODdLRFJGeU8weXFKLXV1Y2dCY2dR?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T01:56:03.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "Gobierno avaló ascenso de general Federico Mejía, imputado por liberar a un supuesto narco | El Colombiano",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUUc0aVBZaW9wZmFTWHZkemlLMGd1VmVUanFmSXoxdlozYVR0R1lGbHE2cmk3QzhLaWtsR0kyVVdZNEl2SDR5eWhSbTdtRHJ0ckRkR3VGZnFnNHhBbHJYUTViWnpQVlZDTWJjS2hFYW1FSGkzUTZzX3R0c3g0a2lvQnpPUk1rb3J6cnAydU9scEt5SnpTeVhqVlFoWHJfZmFwSm1tdEozLVXSAa4BQVVfeXFMUExUS2I5VUN3VHhuVXFPbHhIaUxtTFl2M3RSTkVYOVl5OGZZUU4xcFlLN3dRblhXWmI2cmNnNHhJQTgtSGlNaGVkSExjWldqNTVELTBodTNQbUlMODBCZW94MlZhUVhtbVZfR000OTlKeW1IajZFR2wyRExoSUx3YTY4NjIyTDhRSHBIX0tMYnprZUpxX1FIZVJMaDZvZEs1eDNmZFNRaWdqUFlqOGV3?oc=5",
-      "fuente": "El Colombiano",
-      "fecha": "2026-10-24T01:45:53.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Presidente Abelardo De la Espriella, aquí estamos cumpliéndole a Barranquilla y a Colombia con la transformación del Ernesto Cortissoz: alcalde Char",
-      "enlace": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPWklRaEw2QWcwTUpJbElJc19LdTZRNVg0a0JXdDdFdzVHWnBTc2FXSGRfSG1SQVRsdUstVXdTUzdMUFFDdGtfZjJpYXJmbTBaSnpFdmktVGdQck53bWpKV0t5ZXRNa2lQOUFqZjJxcWVwUkJOU21XNGJuTnQwdWVITnZyWWdzNGtiWWMxSDdyN2k5TEI1V0k4Z0NKd3JPV2dVb2xuMnVvYkpMMEpnTmtCaGNhRWN4REVfX1hRaWFRcnFUdHJVaEswaDE0R3N3bmJqSGJtRTRfT3RTRVRuN3ZmVFIxNmFiU2d6ZEtGVFJuWE5lNS0tMFoyVk1oNXRJTjVzVDR0YXBUVjduZkVYc2xYTWRVTUVmdE5k?oc=5",
-      "fuente": "Alternativa Caribe",
-      "fecha": "2026-10-24T01:45:52.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "Gobierno busca reforzar la cúpula de las Fuerzas Militares con el ascenso de 42 oficiales; la última palabra la tendrá el Senado",
-      "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOYWJCeUZHMWhlcmRfdHgwcE9QblRaOC1lSlIydjF6R2dlWUpIN2tVa25pWEJWcUxsUTJxbmNzbnhYVi0yMDhocFJBblR3c1dJSEFQWEZNU3VlSkFMQ0o3QlZQZEc5elVaMnZpNmF1d3NsbHY3ZkZFek1uUFBtbE9ULUdGTUNLb3lPV0E5cVA4a3k4V215Mkw5WlhjYlV1T0lxYkNyOHRVS0I0ejlEYXpXVEtMb3hob0xqQlIya1doLUpSMlRGYTJXNVZRSURRMlNPNUoyVFg5ZGxpZVc0cFpDem9KRXFLYzctb0NzWTQ5N29nckNWUnVCNDJ1dTBzQktsTjBMTDR1VjhPVlo5LUoxQzV2MmdzSzNPMnIzV2w0QdIBpAJBVV95cUxOXy16MTVXZnd0cUw4TU5VaTFPQWJhVi1GMk1PcUtIazA5ZGxLWFZ0UGJva1daTm9sQU85bUhsWGxCX3FsLVVjQWVfTDNBRjRxZjJmRHc2TFQ5TlNhR0F4SDBuVFpDQ250WGRObEZGRzBwZE9ScGVCU3FPMWk1clppbUhEYVIwSHhCMjE1U1c3bkZxVkNEU1lMc0dCN2pfVjFDVFdFSkpzR0pWczl2NjA1dUJwWGtoSXkzd0NsRHFUeWMtQ3hKZkZWZmMyOE1jZjNYMjlYV1lvZkNKWV95VHFSQTBKLTlzZTFRaU1jWkkwLTl3emhDN1AzMWptZnM2dzNtTWdKZG5EYjh3bWNlUzlDaTUwRnZJdkZLcDB6NmNFMnRXaEw4?oc=5",
-      "fuente": "El Tiempo",
-      "fecha": "2026-10-24T01:32:21.000Z",
-      "tema": "Última hora"
-    },
-    {
-      "titulo": "Presidente Abelardo De La Espriella rinde cuentas sobre sus labores y el Fondo Milagro tras 73 días del terremoto",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUjUyQXVDa29PVkRULUNyeHBSSEtkcVJNLVRqZVZZOVRROEFhd2JQNFlCMy1QTjR2WF8tMGRQbHU3d2RKOE9zemRoZjZ5U0JNQXJObUszal81aElsc3JJVXptRU54M0c3NTBka3F6Y1lvQ3p4bDNuWS1jMHV1R0FLQlkwc0dtdmJjeXQ5TWZUUXJhbC1lQmNJbE5MLS1wNExZMWdmcG5lRWR3emd3UEF6RnEtQ3RmUkt1RUx2OVV2bkdFUnUzTzliUmJ1Y053NVVabk1zZnprTWFpYzhjbnlDcGJOdHJzQVFMLU45RC1HRG_SAfYBQVVfeXFMUFpWdTJnazFxay1FSHNuZEVVX2tDZ1dORld0cHBlUi1nc19kbVlWX2hfRTdhcm81SDhJNElNTGF1QVNnbXJSZ3Z4UHlMSjgyMy1GQk1UdVN0dVBXNTFOaWx5eHZaY1lCMTdEQmRyV0VOOWd4cVhTMUhySUhnRFdPM2hRbFVYOWRyVWswN2ZGTjdmX1E2QnlscDUySUpiQmw2Z1Npd084bkdlOTA0aEZISWlaVzBXaWE5T2RUTzN3VGdIRVE0Y3BuRUJOc2JmRmd4NXIwc2QzbFNJcDd1R3c0U3NFMFdOS0ttZS1KZWo5SVZIMnRzZF93?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-24T01:32:04.000Z",
-      "tema": "Gobierno"
-    },
-    {
-      "titulo": "'Próximamente': Prosperidad Social acaba la espera para más de dos millones de beneficiarios del subsidio Colombia Mayor",
-      "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPc2FtZ0hqNHYwNFlPcFFCVURsTGFYUWptVHpCaVAwU3g1eDFZZE1HV2JpM0dDT0VUTXBoSVV2NmtVaS1lYWxUMm5tSlFUZU03N2hvdXZHbmdva1ZyU2F5WndOY0JhbjZRS2dmLXBWYWI4UHZhV3BHV0xmOXFUcklHWjJyRnh0TXJBTlRmaDFXNlZfZDJIOU9ERHRGMWkzQ0tOV3BsYW1mSkZvZnVFS2dnQzBfZ2FKTHo2cFFyenZDQkRpTk8zbWc0QXpvcWtWYXFiRmpfRGp2QnVydGQxY01YSDF5eHNBMGM4NGtBNzl3eXZlZ09NSTRIYlZrUQ?oc=5",
-      "fuente": "RED+ Noticias",
-      "fecha": "2026-10-24T01:20:09.000Z",
-      "tema": "Última hora"
     }
   ]
 }
